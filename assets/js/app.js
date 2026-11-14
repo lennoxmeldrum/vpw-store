@@ -230,7 +230,7 @@
     const curOpts = Object.keys(P.currencies).map((c) => `<option value="${c}" ${c === S.currency ? 'selected' : ''}>${c}</option>`).join('');
     const langOpts = [['en', 'EN'], ['vi', 'VI']].map(([v, l]) => `<option value="${v}" ${v === S.lang ? 'selected' : ''}>${l}</option>`).join('');
     $('#chrome').innerHTML = `
-      <div class="ribbon"><b>Prototype.</b> Sample designs, prices and orders, for discussion. No real payments are taken.</div>
+      <div class="ribbon"><b>Prototype.</b> Sample designs, prices and orders, for discussion. No real payments are taken. <a href="#/review">Reviewing? Start here</a></div>
       <header class="site-header">
         <div class="wrap">
           <a class="wordmark" href="#/">${MARK}<span>${esc(P.name)}<small>${esc(P.tagline.toUpperCase())}</small></span></a>
@@ -240,6 +240,7 @@
             <a href="#/wrestlers" data-nav="wrestlers">${t('nav.wrestlers')}</a>
             <a href="#/studio" data-nav="studio">${t('nav.studio')}</a>
             <a href="#/platform" data-nav="platform">${t('nav.platform')}</a>
+            <a href="#/review" data-nav="review" class="nav-review">${t('nav.review')}</a>
           </nav>
           <div class="header-tools">
             ${MEMORY ? `<button class="icon-btn" data-act="back" aria-label="Back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></button>` : ''}
@@ -253,7 +254,7 @@
         </div>
         <div class="mobile-nav" id="mobile-nav">
           <a href="#/shop">${t('nav.shop')}</a><a href="#/promotions">${t('nav.promotions')}</a><a href="#/wrestlers">${t('nav.wrestlers')}</a>
-          <a href="#/studio">${t('nav.studio')}</a><a href="#/platform">${t('nav.platform')}</a><a href="#/help">${t('nav.help')}</a>
+          <a href="#/studio">${t('nav.studio')}</a><a href="#/platform">${t('nav.platform')}</a><a href="#/review">${t('nav.review')}</a><a href="#/help">${t('nav.help')}</a>
           <div class="row"><select class="select-pill" data-act="currency" aria-label="${t('cur')}">${curOpts}</select><select class="select-pill" data-act="lang" aria-label="${t('lang')}">${langOpts}</select></div>
         </div>
       </header>`;
@@ -954,7 +955,7 @@
     const max = Math.max(...st.days.map((d) => d.sales), 1);
     const W = 600, H = 200, padL = 44, padB = 22, bw = (W - padL) / st.days.length;
     const step = niceStep(max);
-    const ticks = []; for (let v = 0; v <= max + 0.001; v += step) ticks.push(v);
+    const ticks = []; for (let v = 0; ; v += step) { ticks.push(v); if (v >= max) break; } // last gridline sits above the tallest bar
     const top = ticks[ticks.length - 1] || max;
     const y = (v) => (H - padB) - (v / top) * (H - padB - 8);
     const bars = st.days.map((d, i) => {
@@ -1182,6 +1183,101 @@
     };
   }
 
+  // ---------------------------------------------------------------- review (for Carey)
+  const REVIEW_QS = [
+    ['name', 'Working name', 'The store is called "HOT TAG" for now. Keep it, or do you have a name in mind?'],
+    ['look', 'Look and feel', 'Platform pages are neutral, and each promotion\'s pages take its own colours, with roster cards in the style of the VPW roster page. Is that the right direction? What would you change?'],
+    ['promos', 'Promotions', 'The six included are VPW, SPW, Grapplemax, MYPW, SETUP and FPW. Any to add or remove? Can you get official logos, roster photos and title holders from each?'],
+    ['roster', 'Wrestlers and titles', 'Anything wrong or missing? Names, nicknames, titles, tag teams, or wrestlers we left out (Carlo Cannon, Emman Azman, Ma$on, Ms. Selina, Alexis Lee, Jack Alexander, Cali Nueva).'],
+    ['assets', 'Real merch and assets', 'Which wrestlers have real designs ready, and when will the asset folder be ready? Product photos on a plain background work best.'],
+    ['cart', 'One checkout per store', 'Right now each wrestler\'s store has its own bag and checkout, as KOT runs today. Keep that, or would you rather have one cart for everything?'],
+    ['ship', 'Countries and currencies', 'Which countries matter most at launch? Any you would not ship to? Are the 12 currencies enough?'],
+    ['pay', 'Payment methods', 'Which local payment methods are must-haves (MoMo, GCash, PayNow, PromptPay...)?'],
+    ['money', 'Revenue split', 'The product page shows a sample split of profit: 50% wrestler, 15% promotion, 35% maker. Should the pitch show a split at all? What model do you have in mind?'],
+    ['studio', 'Wrestler store manager', 'Wrestlers can see sales and payouts, change prices, hide products and submit new designs. Is anything missing, or anything they should not be able to do?'],
+    ['kot', 'KOT and their system', 'What do you know about KOT\'s order software (their own system, Shopify, spreadsheets)? Who is the contact, and when is the pitch?'],
+    ['lang', 'Languages', 'English and Vietnamese are in. Add Thai, Bahasa or Filipino?'],
+    ['fix', 'Before KOT sees it', 'Anything that must change before the pitch? Anything that is missing?'],
+  ];
+  function reviewAnswers() { return API.prefs.get('review', {}); }
+  function reviewText() {
+    const a = reviewAnswers();
+    const who = (a._who || '').trim() || 'Reviewer';
+    const lines = [`HOT TAG prototype: feedback from ${who} (${new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' })})`, ''];
+    REVIEW_QS.forEach(([k, label, q], i) => {
+      lines.push(`${i + 1}. ${label}: ${q}`);
+      lines.push(`Answer: ${(a[k] || '').trim() || '(no answer)'}`);
+      lines.push('');
+    });
+    if ((a._other || '').trim()) { lines.push('Anything else:'); lines.push(a._other.trim()); }
+    return lines.join('\n').trim();
+  }
+  function pageReview() {
+    const a = reviewAnswers();
+    const done = REVIEW_QS.filter(([k]) => (a[k] || '').trim()).length;
+    const tour = [
+      ['#/', 'Home', 'The neutral platform look, with every promotion and wrestler.'],
+      ['#/p/vpw', 'A promotion', 'VPW\'s page: its colours, champions, and roster cards in the VPW style.'],
+      ['#/p/vpw/da-butcherman', 'A wrestler\'s store', 'Da Butcherman. He also appears on SPW\'s roster but keeps one store.'],
+      ['#/product/vpw-da-butcherman-photo-tee', 'A product', 'Change the colour, pick a size, add it to the bag.'],
+      ['#/shop', 'Bags and checkout', 'Add items from two stores, then open the bag: each store checks out on its own. Try VND and Vietnam to see local payment options.'],
+      ['#/studio', 'Store manager', 'What a wrestler would log in to: sales, payouts, prices, new designs.'],
+      ['#/platform', 'How it connects', 'The page for KOT: what the store needs from their order system.'],
+    ];
+    return {
+      title: 'For review', nav: 'review',
+      html: `<section class="section"><div class="wrap review">
+        <div class="label">For review</div>
+        <h1 class="h-section" style="margin-top:8px">Hi Carey</h1>
+        <p class="lede">This is a clickable prototype of the Southeast Asian wrestling merch store. It's built to show KOT what fans would see, what each wrestler would manage, and where KOT's order software plugs in. Nothing is live: no payments are taken and nothing ships.</p>
+        <p class="lede">Have a click around using the tour below, then answer what you can at the bottom and press <b>Copy answers</b>. Paste the result into our chat.</p>
+
+        <div class="review-grid">
+          <div>
+            <h2 class="review-h">Take the tour</h2>
+            <ol class="tour">${tour.map(([href, h, d]) => `<li><a href="${href}"><b>${esc(h)}</b><span>${esc(d)}</span></a></li>`).join('')}</ol>
+          </div>
+          <div>
+            <h2 class="review-h">What's real and what's sample</h2>
+            <div class="realsample">
+              <div><h3><span class="status ok">Real</span></h3><ul>
+                <li>VPW roster, photos, titles and logo</li>
+                <li>VPW merch photos: logo tee, tank, trucker cap, keychains</li>
+                <li>The other five promotions' logos, rosters and titles, from their public pages (Nov 2026)</li>
+              </ul></div>
+              <div><h3><span class="status warn">Sample</span></h3><ul>
+                <li>Every other product design, drawn from each wrestler's photo</li>
+                <li>Prices, stock, exchange rates and shipping rates</li>
+                <li>Orders, sales figures, payouts and the revenue split</li>
+                <li>The name "HOT TAG"</li>
+              </ul></div>
+            </div>
+          </div>
+        </div>
+
+        <form class="review-form" data-form="review" autocomplete="off">
+          <div class="review-head">
+            <h2 class="review-h" style="margin:0">Questions</h2>
+            <span class="small muted" id="review-count">${done} of ${REVIEW_QS.length} answered · saved in this browser as you type</span>
+            <button type="button" class="btn btn-ghost btn-sm" data-act="copy-review">Copy answers</button>
+          </div>
+          <div class="field" style="max-width:360px"><label for="rv-_who">Your name</label><input id="rv-_who" data-review="_who" value="${esc(a._who || '')}" placeholder="Carey"></div>
+          ${REVIEW_QS.map(([k, label, q], i) => `<div class="rq">
+            <div class="rq-n">${i + 1}</div>
+            <div class="field"><label for="rv-${k}"><b>${esc(label)}</b><span>${esc(q)}</span></label>
+            <textarea id="rv-${k}" data-review="${k}" rows="3">${esc(a[k] || '')}</textarea></div>
+          </div>`).join('')}
+          <div class="rq"><div class="rq-n">+</div><div class="field"><label for="rv-_other"><b>Anything else</b><span>Anything we didn't ask about.</span></label><textarea id="rv-_other" data-review="_other" rows="3">${esc(a._other || '')}</textarea></div></div>
+          <div class="copy-bar">
+            <button type="button" class="btn btn-primary" data-act="copy-review">Copy answers</button>
+            <span class="small muted" id="copy-msg">Copies every question with your answer, ready to paste into our chat.</span>
+          </div>
+          <div id="copy-fallback" hidden><p class="small" style="margin:12px 0 6px">Copying isn't allowed here. The text is selected below: press <b>Cmd+C</b> (Mac) or <b>Ctrl+C</b> (Windows) to copy it.</p><textarea id="copy-text" readonly rows="10" style="width:100%"></textarea></div>
+        </form>
+      </div></section>`,
+    };
+  }
+
   function pageNotFound() {
     return { title: t('nf'), html: `<div class="wrap section"><div class="empty"><h1 class="h-section">${t('nf')}</h1><p>${t('nf.d')}</p><a class="btn btn-ghost" href="#/">${t('home')}</a></div></div>` };
   }
@@ -1202,6 +1298,7 @@
     [/^\/studio\/([^/]+)\/([^/]+)(?:\/([^/]+))?$/, pageStudio, ['promo', 'slug', 'tab']],
     [/^\/platform$/, pagePlatform],
     [/^\/help$/, pageHelp],
+    [/^\/review$/, pageReview],
   ];
 
   let lastPath = null;
@@ -1272,6 +1369,20 @@
       case 'view': { PDP.view = +a.dataset.i; const g = $('#gal'); if (g) g.scrollTo({ left: g.clientWidth * PDP.view, behavior: 'smooth' }); $$('.gallery-thumbs button').forEach((b, j) => b.classList.toggle('on', j === PDP.view)); break; }
       case 'pqty': PDP.qty = Math.max(1, Math.min(10, PDP.qty + +a.dataset.d)); rerenderPDP(); break;
       case 'notify': toast(t('notified')); break;
+      case 'copy-review': {
+        $$('[data-review]').forEach((f) => { const a = reviewAnswers(); a[f.dataset.review] = f.value; API.prefs.set('review', a); });
+        const text = reviewText();
+        const fallback = () => {
+          const box = $('#copy-fallback'); const ta = $('#copy-text');
+          ta.value = text; box.hidden = false; ta.focus(); ta.select();
+          let ok = false; try { ok = document.execCommand('copy'); } catch (err) { ok = false; }
+          if (ok) { box.hidden = true; toast('Answers copied. Paste them into our chat.'); }
+        };
+        try {
+          navigator.clipboard.writeText(text).then(() => { $('#copy-fallback').hidden = true; $('#copy-msg').textContent = 'Copied. Paste it into our chat.'; toast('Answers copied. Paste them into our chat.'); }).catch(fallback);
+        } catch (err) { fallback(); }
+        break;
+      }
       case 'add': {
         const p = API.product(PDP.id);
         if (a.dataset.need === 'size') { $('.sizes')?.animate([{ transform: 'translateX(0)' }, { transform: 'translateX(-6px)' }, { transform: 'translateX(6px)' }, { transform: 'translateX(0)' }], { duration: 250 }); break; }
@@ -1348,6 +1459,14 @@
 
   function onInput(e) {
     const el = e.target;
+    if (el.dataset.review) {
+      const a = reviewAnswers();
+      a[el.dataset.review] = el.value;
+      API.prefs.set('review', a);
+      const c = $('#review-count');
+      if (c) c.textContent = `${REVIEW_QS.filter(([k]) => (a[k] || '').trim()).length} of ${REVIEW_QS.length} answered · saved in this browser as you type`;
+      return;
+    }
     if (el.dataset.act === 'nd' && (el.name === 'price' || el.name === 'title')) { NEW[el.name] = el.name === 'price' ? +el.value : el.value; $('#earn').innerHTML = earnHTML(); }
     if (el.dataset.filter === 'q') {
       clearTimeout(onInput.tm);

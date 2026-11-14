@@ -574,3 +574,35 @@ code.inline { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size:
 /* Vietnamese stacks diacritics above capitals: give display type room */
 html[lang="vi"] .display, html[lang="vi"] .h-section { line-height: 1.14; }
 html[lang="vi"] .hero h1 span.l { padding-top: .04em; }
+
+/* ---------- Review page (for the client) ---------- */
+.ribbon a { color: var(--text); text-decoration: underline; text-underline-offset: 2px; margin-left: 6px; white-space: nowrap; }
+.nav a.nav-review { color: var(--ink); background: var(--text); border-radius: 999px; padding: 6px 12px; margin-left: 6px; }
+.nav a.nav-review:hover, .nav a.nav-review.on { color: var(--ink); filter: brightness(1.08); box-shadow: none; border-radius: 999px; }
+@media (max-width: 1200px) { .wordmark small { display: none; } .nav a { padding: 8px 9px; letter-spacing: .08em; } }
+.review { max-width: 1040px; }
+.review .lede { max-width: 68ch; }
+.review .lede b { color: var(--text); }
+.review-h { font-family: var(--label); text-transform: uppercase; letter-spacing: .1em; font-size: 15px; font-weight: 500; margin: 0 0 14px; }
+.review-grid { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 24px; margin: 36px 0 44px; }
+@media (max-width: 820px) { .review-grid { grid-template-columns: 1fr; } }
+.tour { list-style: none; margin: 0; padding: 0; counter-reset: tour; display: grid; gap: 8px; }
+.tour li { counter-increment: tour; }
+.tour a { display: grid; grid-template-columns: 28px 1fr; column-gap: 12px; padding: 12px 14px; border: 1px solid var(--line); background: var(--coal); transition: border-color .15s; }
+.tour a:hover { border-color: var(--text); }
+.tour a::before { content: counter(tour); grid-row: span 2; width: 26px; height: 26px; border-radius: 50%; border: 1px solid var(--line-strong); display: grid; place-items: center; font-family: var(--label); font-size: 13px; color: var(--muted); }
+.tour b { font-size: 14px; }
+.tour span { font-size: 13px; color: var(--muted); }
+.realsample { display: grid; gap: 12px; }
+.realsample > div { border: 1px solid var(--line); background: var(--coal); padding: 14px 16px; }
+.realsample h3 { margin: 0 0 8px; font-size: 13px; }
+.realsample ul { margin: 0; padding-left: 18px; color: #cfccc4; font-size: 14px; display: grid; gap: 4px; }
+.review-form { border-top: 1px solid var(--line); padding-top: 32px; display: grid; gap: 18px; }
+.review-head { display: flex; justify-content: space-between; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.rq { display: grid; grid-template-columns: 32px minmax(0, 1fr); gap: 12px; align-items: start; }
+.rq-n { width: 28px; height: 28px; border-radius: 50%; background: var(--iron); display: grid; place-items: center; font-family: var(--label); font-size: 13px; color: var(--muted); margin-top: 2px; }
+.rq label b { display: block; color: var(--text); font-size: 15px; font-weight: 600; margin-bottom: 2px; }
+.rq label span { display: block; color: var(--muted); font-size: 14px; line-height: 1.5; margin-bottom: 4px; max-width: 75ch; }
+.copy-bar { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; padding: 18px 0 0; border-top: 1px solid var(--line); }
+.review-head #review-count { margin-left: auto; }
+#copy-text { background: var(--coal); border: 1px solid var(--line-strong); border-radius: var(--radius); color: var(--text); padding: 10px; font-family: ui-monospace, Menlo, monospace; font-size: 12px; }

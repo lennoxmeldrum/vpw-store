@@ -3,7 +3,7 @@
 (function () {
   const STR = {
     en: {
-      'nav.shop': 'Shop', 'nav.promotions': 'Promotions', 'nav.wrestlers': 'Wrestlers', 'nav.studio': 'For wrestlers', 'nav.platform': 'For partners', 'nav.help': 'Help',
+      'nav.shop': 'Shop', 'nav.promotions': 'Promotions', 'nav.wrestlers': 'Wrestlers', 'nav.studio': 'For wrestlers', 'nav.platform': 'For partners', 'nav.review': 'For review', 'nav.help': 'Help',
       'search': 'Search', 'search.ph': 'Search wrestlers, promotions and merch', 'search.none': 'Nothing found for that search.', 'close': 'Close', 'menu': 'Menu',
       'bags': 'Your bags', 'bag': 'Bag', 'bags.note': 'Each store packs and ships its own order, so each bag checks out separately.', 'bags.empty': 'Your bags are empty.', 'bags.browse': 'Browse the shop',
       'bag.of': '{x}', 'checkout': 'Checkout', 'subtotal': 'Subtotal', 'remove': 'Remove', 'add': 'Add to bag', 'added': 'Added to the {x} bag', 'view.bag': 'View bag',
@@ -39,7 +39,7 @@
       'nf': 'Page not found', 'nf.d': "That page isn't here.", 'home': 'Home',
     },
     vi: {
-      'nav.shop': 'Cửa hàng', 'nav.promotions': 'Liên đoàn', 'nav.wrestlers': 'Đô vật', 'nav.studio': 'Dành cho đô vật', 'nav.platform': 'Đối tác', 'nav.help': 'Hỗ trợ',
+      'nav.shop': 'Cửa hàng', 'nav.promotions': 'Liên đoàn', 'nav.wrestlers': 'Đô vật', 'nav.studio': 'Dành cho đô vật', 'nav.platform': 'Đối tác', 'nav.review': 'Góp ý', 'nav.help': 'Hỗ trợ',
       'search': 'Tìm kiếm', 'search.ph': 'Tìm đô vật, liên đoàn và sản phẩm', 'search.none': 'Không tìm thấy kết quả.', 'close': 'Đóng', 'menu': 'Menu',
       'bags': 'Giỏ hàng của bạn', 'bag': 'Giỏ', 'bags.note': 'Mỗi cửa hàng tự đóng gói và giao đơn riêng, nên mỗi giỏ thanh toán riêng.', 'bags.empty': 'Giỏ hàng đang trống.', 'bags.browse': 'Xem cửa hàng',
       'bag.of': '{x}', 'checkout': 'Thanh toán', 'subtotal': 'Tạm tính', 'remove': 'Xóa', 'add': 'Thêm vào giỏ', 'added': 'Đã thêm vào giỏ {x}', 'view.bag': 'Xem giỏ',
