@@ -57,7 +57,7 @@
       'p4.t': 'Tiền tệ của bạn', 'p4.d': 'Giá theo 12 loại tiền, với cách thanh toán địa phương.',
       'cta.w.t': 'Bạn là đô vật hay liên đoàn?', 'cta.w.d': 'Mở cửa hàng riêng. Tải thiết kế lên, đặt giá, chúng tôi in, đóng gói và giao hàng.', 'cta.w.b': 'Xem trang quản lý',
       'cta.p.t': 'Đối tác sản xuất?', 'cta.p.d': 'Cách cửa hàng này kết nối với hệ thống đơn hàng, và cần gì từ hệ thống của bạn.', 'cta.p.b': 'Cách kết nối',
-      'champs.across': 'Các nhà vô địch trong khu vực', 'promos.k': '{n} liên đoàn · {c} quốc gia',
+      'champs.across': 'Các nhà vô địch trong khu vực', 'promos.k': '{n} liên đoàn · {c} quốc gia', 'promos.k1': '{n} liên đoàn · 1 quốc gia',
       'sort': 'Sắp xếp', 'sort.feat': 'Nổi bật', 'sort.new': 'Mới nhất', 'sort.lo': 'Giá: thấp đến cao', 'sort.hi': 'Giá: cao đến thấp',
       'type': 'Loại', 'avail': 'Tình trạng', 'in.stock': 'Còn hàng', 'showing': '{n} sản phẩm', 'champs.only': 'Chỉ nhà vô địch',
       'share.note': 'Một phần doanh thu mỗi đơn thuộc về {x}.', 'team.gear': 'Sản phẩm của đội', 'sold.by': 'Bán bởi', 'store.of': 'Cửa hàng {x}',

@@ -55,7 +55,7 @@
     VN: ['MoMo', 'ZaloPay', 'VNPay QR'], SG: ['PayNow', 'GrabPay'], MY: ['FPX', "Touch 'n Go", 'GrabPay'], TH: ['PromptPay', 'TrueMoney'],
     PH: ['GCash', 'Maya'], ID: ['QRIS', 'GoPay', 'OVO'], JP: ['Konbini', 'PayPay'], KR: ['KakaoPay'], AU: ['Afterpay'], NL: ['iDEAL'], DE: ['Klarna'],
   };
-  const TYPE_LABEL = { tee: 'Tees', hoodie: 'Hoodies', tank: 'Tanks', photo: 'Signed photos', poster: 'Posters', cap: 'Caps', keychain: 'Keychains' };
+  const TYPE_LABEL = { tee: 'Tees', hoodie: 'Hoodies', tank: 'Tanks', photo: 'Signed photos', poster: 'Posters', cap: 'Caps', keychain: 'Keychains', accessory: 'Accessories' };
   const SIZE_CM = [['S', 48, 69], ['M', 51, 72], ['L', 54, 74], ['XL', 57, 76], ['2XL', 60, 78], ['3XL', 63, 80]];
 
   // ---------------------------------------------------------------- state
@@ -1105,7 +1105,7 @@
         <div class="model">
           <div class="entity"><h4>Promotion <span>${n.promos}</span></h4><code>id, name, short, country<br>logo, theme {primary, accent}<br>championships[]</code></div>
           <div class="entity"><h4>Wrestler <span>${n.talent}</span></h4><code>key = promotion/id<br>name, nickname, title<br>team, photo, socials</code></div>
-          <div class="entity"><h4>Team / stable <span>${API.allTalent().filter((x) => x.team).length ? 'yes' : '-'}</span></h4><code>key, name<br>members[] → wrestlers<br>has its own store</code></div>
+          <div class="entity"><h4>Team / stable <span>${promos.reduce((a, p) => a + API.teamsFor(p.id).length, 0)}</span></h4><code>key, name<br>members[] → wrestlers<br>has its own store</code></div>
           <div class="entity"><h4>Store</h4><code>a wrestler, team or promotion<br>owns products<br>checks out on its own</code></div>
           <div class="entity"><h4>Product <span>${n.products}</span></h4><code>id, store, title, type, price<br>fulfilment: stock | made-to-order | preorder<br>images[] or design{}</code></div>
           <div class="entity"><h4>Variant <span>${n.skus.toLocaleString()}</span></h4><code>sku, size, color, option<br>stock (null = no limit)</code></div>

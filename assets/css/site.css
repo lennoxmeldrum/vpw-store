@@ -565,3 +565,7 @@ code.inline { font-family: ui-monospace, 'SF Mono', Menlo, monospace; font-size:
 
 /* .wrap and .section on the same element: keep the side gutter */
 .wrap.section { padding-left: var(--gutter); padding-right: var(--gutter); }
+
+/* Vietnamese stacks diacritics above capitals: give display type room */
+html[lang="vi"] .display, html[lang="vi"] .h-section { line-height: 1.14; }
+html[lang="vi"] .hero h1 span.l { padding-top: .04em; }

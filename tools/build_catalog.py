@@ -37,6 +37,7 @@ TYPES = {
     "poster":   {"label": "Poster", "price": 20, "cost": 4, "sizes": None},
     "cap":      {"label": "Cap", "price": 26, "cost": 7, "sizes": None},
     "keychain": {"label": "Keychain", "price": 9, "cost": 2, "sizes": None},
+    "accessory": {"label": "Accessory", "price": 15, "cost": 4, "sizes": None},
 }
 
 
