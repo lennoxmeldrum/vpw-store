@@ -1,0 +1,143 @@
+{
+ "promotion": {
+  "id": "grapplemax",
+  "name": "Grapplemax Pro Wrestling",
+  "short": "Grapplemax",
+  "country": "Singapore",
+  "countryCode": "SG",
+  "city": "Singapore",
+  "website": "https://www.grapplemax.sg/",
+  "logo": "assets/img/promotions/grapplemax/logo.webp",
+  "tagline": "Singapore's wrestling studio and academy, running story-driven, family-friendly shows from its own ring since 2016.",
+  "theme": {
+   "primary": "#e4282f",
+   "accent": "#f4f1ea",
+   "accentDeep": "#e4282f",
+   "onPrimary": "#ffffff",
+   "italic": true
+  },
+  "socials": {
+   "facebook": "https://www.facebook.com/grapplemax/",
+   "instagram": "https://www.instagram.com/grapplemax/",
+   "youtube": "https://www.youtube.com/grapplemax",
+   "tiktok": "https://www.tiktok.com/@grapplemax",
+   "x": "https://twitter.com/grapplemax"
+  },
+  "source": "Roster, titles and logo from the promotion's public site and channels (Nov 2026). Logo used with approval.",
+  "order": 2,
+  "championships": [
+   {
+    "name": "Grapplemax Openweight Championship",
+    "holders": [
+     "jinn-kai"
+    ]
+   },
+   {
+    "name": "Grapplemax Tag Team Championship",
+    "holders": [
+     "larhvin-deshadow",
+     "simon-siah"
+    ]
+   },
+   {
+    "name": "Grapplemax Rising Championship",
+    "holders": [
+     "divya"
+    ]
+   }
+  ]
+ },
+ "talent": [
+  {
+   "id": "jinn-kai",
+   "name": "Jinn Kai",
+   "nickname": null,
+   "title": "Grapplemax Openweight Champion",
+   "team": null,
+   "photo": "assets/img/talent/grapplemax/jinn-kai.webp",
+   "socials": {}
+  },
+  {
+   "id": "larhvin-deshadow",
+   "name": "Larhvin DeShadow",
+   "nickname": null,
+   "title": "Grapplemax Tag Team Champion",
+   "team": "heaven-and-earth",
+   "photo": "assets/img/talent/grapplemax/larhvin-deshadow.webp",
+   "socials": {}
+  },
+  {
+   "id": "simon-siah",
+   "name": "Simon Siah",
+   "nickname": null,
+   "title": "Grapplemax Tag Team Champion",
+   "team": "heaven-and-earth",
+   "photo": "assets/img/talent/grapplemax/simon-siah.webp",
+   "socials": {}
+  },
+  {
+   "id": "divya",
+   "name": "Divya",
+   "nickname": null,
+   "title": "Grapplemax Rising Champion",
+   "team": null,
+   "photo": "assets/img/talent/grapplemax/divya.webp",
+   "socials": {}
+  },
+  {
+   "id": "endboss-gregory",
+   "name": "Endboss Gregory",
+   "nickname": null,
+   "title": null,
+   "team": "gst",
+   "photo": "assets/img/talent/grapplemax/endboss-gregory.webp",
+   "socials": {}
+  },
+  {
+   "id": "big-dave",
+   "name": "Big Dave",
+   "nickname": null,
+   "title": null,
+   "team": "gst",
+   "photo": "assets/img/talent/grapplemax/big-dave.webp",
+   "socials": {}
+  },
+  {
+   "id": "hotshot",
+   "name": "Hotshot",
+   "nickname": "DEGEN:Z",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/grapplemax/hotshot.webp",
+   "socials": {}
+  },
+  {
+   "id": "sarah-coldheart",
+   "name": "Sarah Coldheart",
+   "nickname": "Ships Ahoy",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/grapplemax/sarah-coldheart.webp",
+   "socials": {}
+  }
+ ],
+ "teams": [
+  {
+   "id": "heaven-and-earth",
+   "name": "Heaven & Earth",
+   "members": [
+    "larhvin-deshadow",
+    "simon-siah"
+   ]
+  },
+  {
+   "id": "gst",
+   "name": "GST",
+   "members": [
+    "endboss-gregory",
+    "big-dave"
+   ]
+  }
+ ],
+ "products": []
+}

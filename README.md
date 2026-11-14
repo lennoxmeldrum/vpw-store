@@ -65,8 +65,23 @@ tools/build_catalog.py     builds catalog.json from data/source/, adding sample 
 
 Products listed in a source file are real and use their photos. Everything else is generated as `"sample": true`. When real designs arrive, add them to the source file and remove the generated ones (see `gen_talent_products`).
 
+### Wrestlers in more than one promotion
+
+A wrestler has one store, under their home promotion, and can also appear on other rosters. For example, Da Butcherman's store is under VPW and he is also listed on SPW's roster.
+
+To add a wrestler to another promotion's roster, put `{"ref": "vpw/da-butcherman"}` in that promotion's `talent` list. Teams can mix promotions too: write the member as `promo/id`, as with `vpw/miles-karu` in MYPW's The Juicy Boyz.
+
 ### Sources
 
-- **VPW roster, logo and merch photos:** vietnamprowrestling.com (November 2026).
-- **Other promotions' data:** their public sites and pages, as noted in each `data/source/*.json`. Logos are used with the promotions' approval.
-- **Wrestler names, photos and logos** belong to their owners.
+| Promotion | Roster and photos | Notes |
+|---|---|---|
+| VPW (Vietnam) | vietnamprowrestling.com roster | Real merch photos from VPW's shop page |
+| SPW (Singapore) | Official site, Wikimedia Commons, official SETUP match graphic | Gold logo from the official site |
+| Grapplemax (Singapore) | Official roster portraits | |
+| MYPW (Malaysia) | Official video stills, cropped; one SETUP match graphic | Logo keyed out of the official avatar |
+| SETUP (Thailand) | Official match graphics, each cropped to the named wrestler; Wikimedia | Monogram logo from the official avatar |
+| FPW (Philippines) | Official roster portraits | Logo from Wikimedia Commons, turned white for the dark site |
+
+All data was checked in November 2026. Promotion logos are used with the promotions' approval. Wrestler names and photos belong to their owners.
+
+Left out until better photos arrive: wrestlers with no solo photo (Carlo Cannon, Emman Azman, Ma$on, Ms. Selina, Alexis Lee, Jack Alexander) and FPW champion Cali Nueva, whose roster slot is still a placeholder. Title holders change often, so check champions before a demo.

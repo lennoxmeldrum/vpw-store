@@ -1,0 +1,102 @@
+{
+ "promotion": {
+  "id": "spw",
+  "name": "Singapore Pro Wrestling",
+  "short": "SPW",
+  "country": "Singapore",
+  "countryCode": "SG",
+  "city": "Singapore",
+  "website": "https://www.singaporeprowrestling.com",
+  "logo": "assets/img/promotions/spw/logo.webp",
+  "tagline": "Singapore's pioneering modern promotion, mixing homegrown stars with international names since 2012.",
+  "theme": {
+   "primary": "#d69717",
+   "accent": "#f2c14e",
+   "accentDeep": "#b65808",
+   "onPrimary": "#111111",
+   "italic": false
+  },
+  "socials": {
+   "facebook": "https://www.facebook.com/sinprowrestling/",
+   "instagram": "https://www.instagram.com/sgprowrestling/",
+   "youtube": "https://www.youtube.com/@SPWwrestling",
+   "x": "https://x.com/sgprowrestling"
+  },
+  "source": "Roster, titles and logo from the promotion's public site and channels (Nov 2026). Logo used with approval.",
+  "hero": "assets/img/promotions/spw/hero.webp",
+  "order": 1,
+  "championships": [
+   {
+    "name": "SPW Southeast Asian Championship",
+    "holders": [
+     "tetsuya-naito"
+    ]
+   },
+   {
+    "name": "SPW Southeast Asian Tag Team Championship",
+    "holders": [
+     "andruew-tang",
+     "jake-de-leon",
+     "shivam"
+    ]
+   }
+  ]
+ },
+ "talent": [
+  {
+   "id": "tetsuya-naito",
+   "name": "Tetsuya Naito",
+   "nickname": null,
+   "title": "SPW Southeast Asian Champion",
+   "team": null,
+   "photo": "assets/img/talent/spw/tetsuya-naito.webp",
+   "socials": {},
+   "photoNote": "Wikimedia Commons"
+  },
+  {
+   "id": "andruew-tang",
+   "name": "Andruew Tang",
+   "nickname": "The Statement",
+   "title": "SPW Southeast Asian Tag Team Champion",
+   "team": "real-global-threat",
+   "photo": "assets/img/talent/spw/andruew-tang.webp",
+   "socials": {},
+   "photoNote": "Wikimedia Commons"
+  },
+  {
+   "id": "jake-de-leon",
+   "name": "Jake De Leon",
+   "nickname": "The Filipino Fighting Rooster",
+   "title": "SPW Southeast Asian Tag Team Champion",
+   "team": "real-global-threat",
+   "photo": "assets/img/talent/spw/jake-de-leon.webp",
+   "socials": {},
+   "photoNote": "Wikimedia Commons"
+  },
+  {
+   "id": "shivam",
+   "name": "Shivam",
+   "nickname": null,
+   "title": "SPW Southeast Asian Tag Team Champion",
+   "team": "real-global-threat",
+   "photo": "assets/img/talent/spw/shivam.webp",
+   "socials": {},
+   "photoNote": "Cropped from official SETUP match graphic"
+  },
+  {
+   "ref": "vpw/da-butcherman"
+  }
+ ],
+ "teams": [
+  {
+   "id": "real-global-threat",
+   "name": "Real Global Threat",
+   "members": [
+    "andruew-tang",
+    "jake-de-leon",
+    "shivam"
+   ]
+  }
+ ],
+ "products": []
+}

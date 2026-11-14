@@ -1,0 +1,141 @@
+{
+ "promotion": {
+  "id": "fpw",
+  "name": "Filipino Pro Wrestling",
+  "short": "FPW",
+  "country": "Philippines",
+  "countryCode": "PH",
+  "city": "Metro Manila",
+  "website": "https://www.filipinoprowrestling.com/",
+  "logo": "assets/img/promotions/fpw/logo.webp",
+  "tagline": "Metro Manila's story-driven promotion, filming episodic shows and growing Filipino talent.",
+  "theme": {
+   "primary": "#ece8df",
+   "accent": "#f0b347",
+   "accentDeep": "#c98a1b",
+   "onPrimary": "#111111",
+   "italic": false
+  },
+  "socials": {
+   "facebook": "https://www.facebook.com/filprowrestling",
+   "instagram": "https://www.instagram.com/filprowrestling",
+   "youtube": "https://www.youtube.com/@filprowrestling",
+   "tiktok": "https://www.tiktok.com/@filprowrestling",
+   "x": "https://twitter.com/filprowrestling"
+  },
+  "source": "Roster, titles and logo from the promotion's public site and channels (Nov 2026). Logo used with approval.",
+  "order": 5,
+  "championships": [
+   {
+    "name": "FPW Metro Manila Championship",
+    "holders": [
+     "jan-evander"
+    ]
+   }
+  ]
+ },
+ "talent": [
+  {
+   "id": "jan-evander",
+   "name": "Jan Evander",
+   "nickname": null,
+   "title": "FPW Metro Manila Champion",
+   "team": null,
+   "photo": "assets/img/talent/fpw/jan-evander.webp",
+   "socials": {},
+   "photoNote": "Official FPW roster photo"
+  },
+  {
+   "id": "quatro",
+   "name": "Quatro",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/fpw/quatro.webp",
+   "socials": {},
+   "photoNote": "Official FPW roster photo"
+  },
+  {
+   "id": "mike-madrigal",
+   "name": "Mike Madrigal",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/fpw/mike-madrigal.webp",
+   "socials": {},
+   "photoNote": "Official FPW roster photo"
+  },
+  {
+   "id": "ralph-imabayashi",
+   "name": "Ralph Imabayashi",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/fpw/ralph-imabayashi.webp",
+   "socials": {},
+   "photoNote": "Official FPW roster photo"
+  },
+  {
+   "id": "nina",
+   "name": "Nina",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/fpw/nina.webp",
+   "socials": {},
+   "photoNote": "Official FPW roster photo"
+  },
+  {
+   "id": "revo-ranger",
+   "name": "Revo Ranger",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/fpw/revo-ranger.webp",
+   "socials": {},
+   "photoNote": "Official FPW roster photo"
+  },
+  {
+   "id": "bolt",
+   "name": "Bolt",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/fpw/bolt.webp",
+   "socials": {},
+   "photoNote": "Official FPW roster photo"
+  },
+  {
+   "id": "chino-guinto",
+   "name": "Chino Guinto",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/fpw/chino-guinto.webp",
+   "socials": {},
+   "photoNote": "Official FPW roster photo"
+  },
+  {
+   "id": "james-martinez",
+   "name": "James Martinez",
+   "nickname": "IDOL",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/fpw/james-martinez.webp",
+   "socials": {},
+   "photoNote": "Official FPW roster photo"
+  },
+  {
+   "id": "the-yolo-twins",
+   "name": "The YOLO Twins",
+   "nickname": "Tag team",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/fpw/the-yolo-twins.webp",
+   "socials": {},
+   "photoNote": "Official FPW roster photo"
+  }
+ ],
+ "teams": [],
+ "products": []
+}

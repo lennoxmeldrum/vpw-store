@@ -149,7 +149,7 @@
       <div class="frame-body">
         <div class="frame-kicker ${tl.title ? 'gold' : ''}">${esc(kicker)}</div>
         <div class="frame-name">${esc(tl.name)}</div>
-        ${opts.compact ? '' : `<div class="frame-meta">${opts.showPromo ? `<img src="${esc(promo.logo)}" alt="${esc(promo.short)}">` : ''}<span>${count} ${t('items')}</span></div>`}
+        ${opts.compact ? '' : `<div class="frame-meta">${opts.showPromo || (opts.context && opts.context !== tl.promotion) ? `<img src="${esc(promo.logo)}" alt="${esc(promo.short)}">` : ''}<span>${opts.context && opts.context !== tl.promotion ? 'Store on ' + esc(promo.short) + ' · ' : ''}${count} ${t('items')}</span></div>`}
       </div>
     </a>`;
   }
@@ -184,12 +184,13 @@
   }
 
   function champCard(promo, ch) {
-    const holders = ch.holders.map((h) => API.talent(`${promo.id}/${h}`)).filter(Boolean);
+    const holders = ch.holders.map((h) => API.talent(h.includes('/') ? h : `${promo.id}/${h}`)).filter(Boolean);
     if (!holders.length) return '';
-    const href = holders.length === 1 ? `#/p/${promo.id}/${holders[0].id}` : `#/p/${promo.id}/${holders[0].id}`;
-    return `<a class="champ" href="${href}" style="${themeVars(promo)}">
+    const tm = holders.length > 1 ? API.teamOf(holders[0].key) : null;
+    const href = tm && holders.every((h) => tm.members.includes(h.key)) ? `#/p/${tm.promotion}/${tm.id}` : `#/p/${holders[0].promotion}/${holders[0].id}`;
+    return `<a class="champ ${holders.length > 2 ? 'many' : ''}" href="${href}" style="${themeVars(promo)}">
       <div class="faces">${holders.map((h) => `<img src="${esc(h.photo)}" alt="${esc(h.name)}" loading="lazy">`).join('')}</div>
-      <div><div class="t">${esc(ch.name)}</div><div class="n">${holders.map((h) => esc(h.name)).join(' &amp; ')}</div>
+      <div><div class="t">${esc(ch.name)}</div><div class="n">${holders.length > 2 && tm ? esc(tm.name) : holders.map((h) => esc(h.name)).join(' &amp; ')}</div>
       <div class="small muted" style="margin-top:4px;display:flex;align-items:center;gap:6px"><img src="${esc(promo.logo)}" alt="" style="height:12px;width:auto"> ${esc(promo.short)}</div></div>
     </a>`;
   }
@@ -375,9 +376,18 @@
     const pick = (n, off) => { const out = []; for (let i = 0; i < n; i++) out.push(all[(i * 7 + off) % all.length]); return out; };
     const rowA = pick(12, 0), rowB = pick(12, 3);
     const champs = promos.flatMap((p) => (p.championships || []).map((c) => champCard(p, c))).join('');
-    const drops = sortProducts(API.products(), 'new').filter((p) => !isSoldOut(p)).slice(0, 8);
+    // Newest first, but spread across promotions and product types so the row isn't eight of one thing.
+    const drops = [];
+    const seen = {};
+    for (const p of sortProducts(API.products(), 'new').filter((x) => !isSoldOut(x))) {
+      const k1 = p.promotion, k2 = p.promotion + p.type + (p.design ? p.design.style : 'img');
+      if ((seen[k1] || 0) >= 2 || seen[k2]) continue;
+      seen[k1] = (seen[k1] || 0) + 1; seen[k2] = 1;
+      drops.push(p);
+      if (drops.length === 8) break;
+    }
     const featured = [];
-    promos.forEach((p) => { API.talentFor(p.id).slice(0, 4).forEach((x) => featured.push(x)); });
+    promos.forEach((p) => { API.homeTalentFor(p.id).slice(0, 2).forEach((x) => featured.push(x)); });
     const countries = new Set(promos.map((p) => p.countryCode)).size;
     return {
       title: `${API.platform().name}: ${API.platform().tagline}`,
@@ -412,7 +422,7 @@
 
       <section class="section tight"><div class="wrap">
         <div class="section-head"><h2 class="h-section">${t('find')}</h2><a class="link-arrow" href="#/wrestlers">${t('see.all')} (${all.length})</a></div>
-        <div class="grid-roster">${featured.slice(0, 8).map((x) => rosterCard(x, { neutral: true, showPromo: true })).join('')}</div>
+        <div class="grid-roster">${featured.slice(0, 12).map((x) => rosterCard(x, { neutral: true, showPromo: true })).join('')}</div>
       </div></section>
 
       <section class="section tight"><div class="wrap">
@@ -562,7 +572,7 @@
             ${teams.length ? `<a class="chip ${filter === 'teams' ? 'on' : ''}" href="#/p/${pid}?f=teams">${t('teams')}</a>` : ''}
           </div>
         </div>
-        <div class="grid-roster">${list.map((x) => rosterCard(x)).join('')}</div>
+        <div class="grid-roster">${list.map((x) => rosterCard(x, { context: pid })).join('')}</div>
       </div></section>
 
       ${teams.length ? `<section class="section tight"><div class="wrap"><div class="section-head"><h2 class="h-section">${t('teams')}</h2></div>
@@ -583,7 +593,7 @@
     const team = API.team(key);
     if (!promo || (!tl && !team)) return pageNotFound();
     const own = sortProducts(API.products({ store: key }), 'feat');
-    const roster = API.talentFor(pid).filter((x) => x.key !== key);
+    const roster = API.homeTalentFor(pid).filter((x) => x.key !== key);
     let hero;
     if (tl) {
       const tm = API.teamOf(key);
@@ -596,7 +606,7 @@
           ${tl.nickname ? `<div class="nick">${esc(tl.nickname)}</div>` : ''}
           <h1 class="display">${esc(tl.name)}</h1>
           ${tl.title ? `<div class="title-pill">${I.belt}${esc(tl.title)}</div>` : ''}
-          ${tm ? `<div style="margin-top:14px"><a class="chip" href="#/p/${pid}/${tm.id}">${esc(tm.name)} →</a></div>` : ''}
+          ${tm || (tl.appearsIn || []).length ? `<div class="chips" style="margin-top:14px">${tm ? `<a class="chip" href="#/p/${tm.promotion}/${tm.id}">${esc(tm.name)} →</a>` : ''}${(tl.appearsIn || []).map((x) => { const pr = API.promotion(x); return `<a class="chip" href="#/p/${x}"><img src="${esc(pr.logo)}" alt="">Also wrestles for ${esc(pr.short)}</a>`; }).join('')}</div>` : ''}
           ${settings.bio ? `<p class="lede" style="color:#d6d3cb">${esc(settings.bio)}</p>` : ''}
           <div class="socials">${socialsHTML(tl.socials)}</div>
           <div class="hero-ctas"><a class="btn btn-primary" href="#shop-grid" data-act="scroll" data-to="shop-grid">${t('shop.coll')} (${own.length})</a><button class="btn btn-ghost" data-act="copy-link">${I.link} ${t('share')}</button></div>
@@ -608,7 +618,7 @@
         <div>
           <div class="official"><img src="${esc(promo.logo)}" alt="${esc(promo.short)}"><span class="label">${t('official')} · ${t('teams')}</span></div>
           <h1 class="display">${esc(team.name)}</h1>
-          <div class="chips" style="margin-top:18px">${mem.map((m) => `<a class="chip" href="#/p/${pid}/${m.id}">${esc(m.name)}</a>`).join('')}</div>
+          <div class="chips" style="margin-top:18px">${mem.map((m) => `<a class="chip" href="#/p/${m.promotion}/${m.id}">${esc(m.name)}${m.promotion !== pid ? ` · ${esc(API.promotion(m.promotion).short)}` : ''}</a>`).join('')}</div>
           <div class="hero-ctas"><a class="btn btn-primary" href="#shop-grid" data-act="scroll" data-to="shop-grid">${t('shop.coll')} (${own.length})</a><button class="btn btn-ghost" data-act="copy-link">${I.link} ${t('share')}</button></div>
           <div class="share-note">${I.heart}<span>${t('share.note', { x: esc(team.name) })}</span></div>
         </div>`;
@@ -909,7 +919,7 @@
           <div class="studio-who"><img src="${esc(tl.photo)}" alt=""><div><div class="label">Store manager <span class="demo-pill">Demo</span></div><div class="display" style="font-size:34px">${esc(tl.name)}</div></div></div>
           <div style="display:flex;gap:10px;align-items:center;flex-wrap:wrap">
             <label class="small muted" for="as">Viewing as</label>
-            <select id="as" class="select-pill" data-act="studio-as">${API.promotions().map((p) => `<optgroup label="${esc(p.short)}">${API.talentFor(p.id).map((x) => `<option value="${x.promotion}/${x.id}" ${x.key === key ? 'selected' : ''}>${esc(x.name)}</option>`).join('')}</optgroup>`).join('')}</select>
+            <select id="as" class="select-pill" data-act="studio-as">${API.promotions().map((p) => `<optgroup label="${esc(p.short)}">${API.homeTalentFor(p.id).map((x) => `<option value="${x.promotion}/${x.id}" ${x.key === key ? 'selected' : ''}>${esc(x.name)}</option>`).join('')}</optgroup>`).join('')}</select>
             <a class="btn btn-ghost btn-sm" href="#/p/${tl.promotion}/${tl.id}">View my store</a>
           </div>
         </div>

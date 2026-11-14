@@ -1,0 +1,93 @@
+{
+ "promotion": {
+  "id": "mypw",
+  "name": "Malaysia Pro Wrestling",
+  "short": "MYPW",
+  "country": "Malaysia",
+  "countryCode": "MY",
+  "city": "Kuala Lumpur",
+  "website": null,
+  "logo": "assets/img/promotions/mypw/logo.webp",
+  "tagline": "Kuala Lumpur's flagship promotion: more than a decade of hard-hitting shows and Malaysian talent.",
+  "theme": {
+   "primary": "#d6123c",
+   "accent": "#ff7a93",
+   "accentDeep": "#d6123c",
+   "onPrimary": "#ffffff",
+   "italic": true
+  },
+  "socials": {
+   "facebook": "https://www.facebook.com/MyProWrestling",
+   "instagram": "https://www.instagram.com/mypwrestling",
+   "youtube": "https://www.youtube.com/@MalaysiaProWrestling",
+   "x": "https://x.com/MYProWrestling"
+  },
+  "source": "Roster, titles and logo from the promotion's public site and channels (Nov 2026). Logo used with approval.",
+  "hero": "assets/img/promotions/mypw/hero.webp",
+  "order": 3,
+  "championships": [
+   {
+    "name": "MYPW Southeast Asia Championship",
+    "holders": [
+     "kaizul"
+    ]
+   }
+  ]
+ },
+ "talent": [
+  {
+   "id": "kaizul",
+   "name": "Kaizul",
+   "nickname": null,
+   "title": "MYPW Southeast Asia Champion",
+   "team": null,
+   "photo": "assets/img/talent/mypw/kaizul.webp",
+   "socials": {},
+   "photoNote": "Official MYPW video still"
+  },
+  {
+   "id": "the-wonderboy",
+   "name": "The Wonderboy",
+   "nickname": null,
+   "title": null,
+   "team": "the-juicy-boyz",
+   "photo": "assets/img/talent/mypw/the-wonderboy.webp",
+   "socials": {},
+   "photoNote": "Official MYPW video still"
+  },
+  {
+   "id": "poppy-shay",
+   "name": "Poppy Shay",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/mypw/poppy-shay.webp",
+   "socials": {},
+   "photoNote": "Official MYPW video still"
+  },
+  {
+   "id": "fienic-rose",
+   "name": "Fienic Rose",
+   "nickname": "The Flamingo",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/mypw/fienic-rose.webp",
+   "socials": {},
+   "photoNote": "Cropped from official SETUP match graphic"
+  },
+  {
+   "ref": "vpw/miles-karu"
+  }
+ ],
+ "teams": [
+  {
+   "id": "the-juicy-boyz",
+   "name": "The Juicy Boyz",
+   "members": [
+    "vpw/miles-karu",
+    "the-wonderboy"
+   ]
+  }
+ ],
+ "products": []
+}

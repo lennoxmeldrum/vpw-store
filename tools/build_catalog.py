@@ -166,7 +166,7 @@ def gen_talent_products(promo, t, teams_by_id):
 
 def gen_team_products(promo, team):
     key = f'{promo["id"]}/{team["id"]}'
-    members = [f'{promo["id"]}/{m}' for m in team["members"]]
+    members = [m if "/" in m else f'{promo["id"]}/{m}' for m in team["members"]]
     return [product(
         f'{promo["id"]}-{team["id"]}-team-tee', key, promo["id"], members, f'{team["name"]} Team Tee', "tee",
         design={"style": "team"}, colors=[BLANKS["black"], BLANKS["white"]], fulfilment="made-to-order",
@@ -181,6 +181,7 @@ def gen_promotion_products(promo, talent_keys, has_real):
         out.append(product(
             f"{pid}-logo-tee", pid, pid, [], f'{promo["short"]} Logo Tee', "tee",
             design={"style": "logo"}, colors=[BLANKS["black"], BLANKS["white"]], fulfilment="made-to-order",
+            created=TODAY - datetime.timedelta(days=75),
             description=f'The {promo["name"]} logo on a cotton tee.'))
     out.append(product(
         f"{pid}-roster-tee", pid, pid, talent_keys[:12], f'{promo["short"]} Roster Tee', "tee",
@@ -191,6 +192,7 @@ def gen_promotion_products(promo, talent_keys, has_real):
     out.append(product(
         f"{pid}-logo-hoodie", pid, pid, [], f'{promo["short"]} Logo Hoodie', "hoodie",
         design={"style": "logo"}, colors=[BLANKS["black"]], fulfilment="stock",
+        created=TODAY - datetime.timedelta(days=60),
         description=f'Heavyweight hoodie with the {promo["short"]} logo on the chest.'))
     return out
 
@@ -206,7 +208,15 @@ def main():
         promo.setdefault("order", len(promotions))
         promotions.append(promo)
         tmap = {}
+        by_key = {t["key"]: t for t in talent}
+        ns = lambda k: k if "/" in k else f'{promo["id"]}/{k}'
         for t in src.get("talent", []):
+            if t.get("ref"):
+                # A wrestler whose home store is in another promotion: list them on this roster too.
+                home = by_key.get(t["ref"])
+                if home is not None:
+                    home.setdefault("appearsIn", []).append(promo["id"])
+                continue
             t = dict(t)
             t["promotion"] = promo["id"]
             t["key"] = f'{promo["id"]}/{t["id"]}'
@@ -220,8 +230,11 @@ def main():
             tm = dict(tm)
             tm["promotion"] = promo["id"]
             tm["key"] = f'{promo["id"]}/{tm["id"]}'
-            tm["members"] = [f'{promo["id"]}/{m}' for m in tm["members"]]
+            tm["members"] = [ns(m) for m in tm["members"]]
             teams.append(tm)
+            for m in tm["members"]:
+                if m in by_key and not by_key[m].get("team"):
+                    by_key[m]["team"] = tm["key"]
         # real products from source
         real = []
         for p in src.get("products", []):
@@ -237,7 +250,10 @@ def main():
             real.append(pr)
         products.extend(real)
         for t in src.get("talent", []):
-            products.extend(gen_talent_products(promo, tmap[t["id"]], {}))
+            if t.get("id") in tmap:
+                products.extend(gen_talent_products(promo, tmap[t["id"]], {}))
+        for ch in promo.get("championships", []):
+            ch["holders"] = [ns(h) for h in ch["holders"]]
         for tm in src.get("teams", []):
             if len(tm.get("members", [])) >= 2:
                 products.extend(gen_team_products(promo, tm))

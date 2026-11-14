@@ -1,0 +1,135 @@
+{
+ "promotion": {
+  "id": "setup",
+  "name": "SETUP Thailand Pro Wrestling",
+  "short": "SETUP",
+  "country": "Thailand",
+  "countryCode": "TH",
+  "city": "Bangkok",
+  "website": null,
+  "logo": "assets/img/promotions/setup/logo.webp",
+  "tagline": "Bangkok's homegrown promotion: Thai flair, supernatural spectacle and Japanese partnerships.",
+  "theme": {
+   "primary": "#dbc525",
+   "accent": "#f5e05a",
+   "accentDeep": "#b5841b",
+   "onPrimary": "#111111",
+   "italic": true
+  },
+  "socials": {
+   "facebook": "https://www.facebook.com/setupth/",
+   "youtube": "https://www.youtube.com/@SETUPTHAILANDPROWRESTLING",
+   "x": "https://x.com/setupth"
+  },
+  "source": "Roster, titles and logo from the promotion's public site and channels (Nov 2026). Logo used with approval.",
+  "hero": "assets/img/promotions/setup/hero.webp",
+  "order": 4,
+  "championships": [
+   {
+    "name": "SETUP Thailand Openweight Championship",
+    "holders": [
+     "anont-alonzo"
+    ]
+   },
+   {
+    "name": "SETUP All Asia Women's Championship",
+    "holders": [
+     "shoko-nakajima"
+    ]
+   }
+  ]
+ },
+ "talent": [
+  {
+   "id": "anont-alonzo",
+   "name": "Anont Alonzo",
+   "nickname": null,
+   "title": "SETUP Thailand Openweight Champion",
+   "team": null,
+   "photo": "assets/img/talent/setup/anont-alonzo.webp",
+   "socials": {},
+   "photoNote": "Cropped from official SETUP match graphic"
+  },
+  {
+   "id": "shoko-nakajima",
+   "name": "Shoko Nakajima",
+   "nickname": "The 1.47m Big Kaiju",
+   "title": "SETUP All Asia Women's Champion",
+   "team": null,
+   "photo": "assets/img/talent/setup/shoko-nakajima.webp",
+   "socials": {},
+   "photoNote": "Wikimedia Commons"
+  },
+  {
+   "id": "kevin-weng",
+   "name": "Kevin Weng",
+   "nickname": null,
+   "title": "IWA Japan SETUP World Tag Team Champion",
+   "team": null,
+   "photo": "assets/img/talent/setup/kevin-weng.webp",
+   "socials": {},
+   "photoNote": "Cropped from official SETUP match graphic"
+  },
+  {
+   "id": "monomoth",
+   "name": "Monomoth",
+   "nickname": "Smiling Angel",
+   "title": null,
+   "team": "elegance-boyz",
+   "photo": "assets/img/talent/setup/monomoth.webp",
+   "socials": {},
+   "photoNote": "Cropped from official SETUP match graphic"
+  },
+  {
+   "id": "dewdy",
+   "name": "Dewdy",
+   "nickname": "The Sour Martini",
+   "title": null,
+   "team": "elegance-boyz",
+   "photo": "assets/img/talent/setup/dewdy.webp",
+   "socials": {},
+   "photoNote": "Cropped from official SETUP match graphic"
+  },
+  {
+   "id": "matcha",
+   "name": "Matcha",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/setup/matcha.webp",
+   "socials": {},
+   "photoNote": "Cropped from official SETUP match graphic"
+  },
+  {
+   "id": "jonathan-johnson",
+   "name": "Jonathan Johnson",
+   "nickname": "X-Rated",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/setup/jonathan-johnson.webp",
+   "socials": {},
+   "photoNote": "Cropped from official SETUP match graphic"
+  },
+  {
+   "id": "paksa",
+   "name": "Paksa",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/setup/paksa.webp",
+   "socials": {},
+   "photoNote": "Cropped from official SETUP match graphic"
+  }
+ ],
+ "teams": [
+  {
+   "id": "elegance-boyz",
+   "name": "Elegance Boyz",
+   "members": [
+    "monomoth",
+    "dewdy"
+   ]
+  }
+ ],
+ "products": []
+}

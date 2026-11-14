@@ -63,7 +63,9 @@
     promotion: (id) => IDX.promo[id],
     talent: (key) => IDX.talent[key],
     allTalent: () => C.talent,
-    talentFor: (promoId) => C.talent.filter((t) => t.promotion === promoId),
+    /** Everyone on a promotion's roster, including wrestlers whose home store is elsewhere. */
+    talentFor: (promoId) => C.talent.filter((t) => t.promotion === promoId || (t.appearsIn || []).includes(promoId)),
+    homeTalentFor: (promoId) => C.talent.filter((t) => t.promotion === promoId),
     team: (key) => IDX.team[key],
     teamsFor: (promoId) => C.teams.filter((t) => t.promotion === promoId),
     teamOf: (talentKey) => C.teams.find((t) => t.members.includes(talentKey)),

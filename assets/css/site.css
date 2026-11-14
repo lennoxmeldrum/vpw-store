@@ -269,6 +269,8 @@ input, select, textarea { font: inherit; color: inherit; }
 .champ .faces { display: flex; flex: none; }
 .champ .faces img { width: 64px; height: 64px; object-fit: cover; border: 2px solid var(--accent); border-radius: 50%; background: #111; }
 .champ .faces img + img { margin-left: -16px; }
+.champ.many .faces img { width: 46px; height: 46px; }
+.champ.many .faces img + img { margin-left: -14px; }
 .champ .t { font-family: var(--label); text-transform: uppercase; letter-spacing: .1em; font-size: 12px; color: var(--accent); }
 .champ .n { font-family: var(--label); text-transform: uppercase; font-size: 18px; line-height: 1.15; }
 
