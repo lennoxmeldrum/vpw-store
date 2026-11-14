@@ -4,7 +4,9 @@
    --frame tokens with that promotion's colours (see applyTheme in app.js).
    ===================================================================== */
 
+/* Deliberately dark-only: the look follows VPW's black roster page. */
 :root {
+  color-scheme: dark;
   --ink: #0b0b0b;          /* page */
   --coal: #131313;         /* raised */
   --steel: #1c1c1c;        /* cards */
@@ -103,7 +105,8 @@ input, select, textarea { font: inherit; color: inherit; }
 .ribbon b { color: var(--text); font-weight: 600; }
 
 /* ---------- Header ---------- */
-.site-header { position: sticky; top: 0; z-index: 40; background: rgba(11, 11, 11, .92); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 41; background: #0b0b0b; }
+.site-header { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 40; background: rgba(11, 11, 11, .92); backdrop-filter: blur(10px); border-bottom: 1px solid var(--line); }
 .site-header .wrap { height: var(--header-h); display: flex; align-items: center; gap: 18px; }
 .wordmark { display: flex; align-items: center; gap: 10px; font-family: var(--display); font-size: 26px; letter-spacing: .02em; line-height: 1; white-space: nowrap; }
 .wordmark .mark { width: 30px; height: 30px; flex: none; }

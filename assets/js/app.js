@@ -11,6 +11,18 @@
   const up = (s) => String(s || '').toUpperCase();
   const app = () => $('#app');
 
+  // Routing: normally the URL hash (#/p/vpw). Hosts that don't allow path-style hashes set
+  // window.HT_MEMORY_ROUTER before this script, and navigation then stays inside the page.
+  const MEMORY = !!window.HT_MEMORY_ROUTER;
+  let memPath = '#/';
+  const memStack = [];
+  const here = () => (MEMORY ? memPath : (location.hash || '#/'));
+  function go(h, replace) {
+    if (MEMORY) { if (!replace && h !== memPath) memStack.push(memPath); memPath = h; closeSearch(); route(); }
+    else if (replace) { history.replaceState(null, '', h); route(); }
+    else location.hash = h;
+  }
+
   // ---------------------------------------------------------------- icons
   const I = {
     search: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>',
@@ -230,6 +242,7 @@
             <a href="#/platform" data-nav="platform">${t('nav.platform')}</a>
           </nav>
           <div class="header-tools">
+            ${MEMORY ? `<button class="icon-btn" data-act="back" aria-label="Back"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 6l-6 6 6 6"/></svg></button>` : ''}
             <button class="icon-btn" data-act="search" aria-label="${t('search')}">${I.search}</button>
             <label class="sr" for="cur-sel">${t('cur')}</label>
             <select id="cur-sel" class="select-pill hide-sm" data-act="currency" aria-label="${t('cur')}">${curOpts}</select>
@@ -843,7 +856,7 @@
     delete S.bags[key];
     saveBags();
     CO.form = null;
-    location.hash = `#/order/${orderId}`;
+    go(`#/order/${orderId}`);
   }
 
   // ---------------------------------------------------------------- order
@@ -1193,7 +1206,7 @@
 
   let lastPath = null;
   function route() {
-    const raw = location.hash.replace(/^#/, '') || '/';
+    const raw = here().replace(/^#/, '') || '/';
     const [pathPart, anchor] = raw.split('#');
     const [path, qs] = pathPart.split('?');
     const q = new URLSearchParams(qs || '');
@@ -1221,6 +1234,11 @@
 
   // ================================================================= EVENTS
   function onClick(e) {
+    if (MEMORY) {
+      const l = e.target.closest('a[href^="#/"]');
+      if (l) { e.preventDefault(); go(l.getAttribute('href')); }
+      if (e.target.closest('[data-act="back"]')) { e.preventDefault(); if (memStack.length) { memPath = memStack.pop(); route(); } return; }
+    }
     const a = e.target.closest('[data-act]');
     if (!a) return;
     const act = a.dataset.act;
@@ -1230,7 +1248,7 @@
       case 'search': openSearch(); break;
       case 'close-search': closeSearch(); break;
       case 'menu': $('#mobile-nav').classList.toggle('open'); break;
-      case 'reset': e.preventDefault(); API.resetDemo(); location.hash = '#/'; location.reload(); break;
+      case 'reset': e.preventDefault(); API.resetDemo(); if (!MEMORY) location.hash = '#/'; location.reload(); break;
       case 'scroll': e.preventDefault(); document.getElementById(a.dataset.to)?.scrollIntoView({ behavior: 'smooth' }); break;
       case 'copy-link': {
         const url = location.href;
@@ -1244,7 +1262,7 @@
         if (act === 'rm') items.splice(i, 1);
         else items[i].qty = Math.max(1, Math.min(10, items[i].qty + +a.dataset.d));
         saveBags(); renderBag();
-        if (location.hash.startsWith('#/checkout/')) rerenderCheckout();
+        if (here().startsWith('#/checkout/')) rerenderCheckout();
         break;
       }
       // product page
@@ -1280,12 +1298,12 @@
     if (act === 'lang') { S.lang = el.value; API.prefs.set('lang', S.lang); I18N.set(S.lang); renderChrome(); route(); return; }
     if (act === 'country') {
       S.country = el.value; API.prefs.set('country', S.country);
-      if (location.hash.startsWith('#/checkout/')) rerenderCheckout(); else rerenderPDP();
+      if (here().startsWith('#/checkout/')) rerenderCheckout(); else rerenderPDP();
       return;
     }
     if (act === 'method') { CO.method = el.value; rerenderCheckout(); return; }
     if (act === 'pay') { CO.pay = el.value; rerenderCheckout(); return; }
-    if (act === 'studio-as') { const tab = (location.hash.split('/')[4] || 'overview'); location.hash = `#/studio/${el.value}/${tab}`; return; }
+    if (act === 'studio-as') { const tab = (here().split('/')[4] || 'overview'); go(`#/studio/${el.value}/${tab}`); return; }
     if (act === 'set-price') {
       const v = Math.max(5, Math.round(+el.value || 0));
       API.updateProduct(el.dataset.id, { price: v });
@@ -1294,10 +1312,10 @@
     }
     if (el.dataset.filter) {
       const base = el.dataset.base;
-      const q = new URLSearchParams((location.hash.split('?')[1] || ''));
+      const q = new URLSearchParams((here().split('?')[1] || ''));
       if (el.value) q.set(el.dataset.filter, el.value); else q.delete(el.dataset.filter);
       const s = q.toString();
-      location.hash = `#/${base}${s ? '?' + s : ''}`;
+      go(`#/${base}${s ? '?' + s : ''}`);
       return;
     }
     if (act === 'nd') { ndUpdate(el); return; }
@@ -1335,11 +1353,10 @@
       clearTimeout(onInput.tm);
       onInput.tm = setTimeout(() => {
         const base = el.dataset.base;
-        const q = new URLSearchParams((location.hash.split('?')[1] || ''));
+        const q = new URLSearchParams((here().split('?')[1] || ''));
         if (el.value) q.set('q', el.value); else q.delete('q');
         const s = q.toString();
-        history.replaceState(null, '', `#/${base}${s ? '?' + s : ''}`);
-        route();
+        go(`#/${base}${s ? '?' + s : ''}`, true);
         const again = $(`[data-filter="q"][data-base="${base}"]`);
         if (again) { again.focus(); again.setSelectionRange(again.value.length, again.value.length); }
       }, 220);
@@ -1356,7 +1373,7 @@
     else if (kind === 'find') {
       const d = Object.fromEntries(new FormData(f));
       const o = API.findOrder(d.id, d.email);
-      if (o) location.hash = `#/order/${o.id}`; else $('#find-msg').textContent = t('find.none');
+      if (o) go(`#/order/${o.id}`); else $('#find-msg').textContent = t('find.none');
     } else if (kind === 'design') {
       const key = NEW.key;
       const tl = API.talent(key);
@@ -1374,10 +1391,10 @@
       API.submitDesign(product);
       NEW.key = null;
       toast('Sent to the factory for review');
-      location.hash = `#/studio/${tl.promotion}/${tl.id}/products`;
+      go(`#/studio/${tl.promotion}/${tl.id}/products`);
     } else if (kind === 'settings') {
       const d = Object.fromEntries(new FormData(f));
-      const key = location.hash.split('/').slice(2, 4).join('/');
+      const key = here().split('/').slice(2, 4).join('/');
       API.saveStoreSettings(key, d);
       toast('Store settings saved');
     }

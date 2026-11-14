@@ -17,6 +17,8 @@ python3 -m http.server 8080
 
 It can be hosted on any static host (GitHub Pages, Netlify, Vercel, Cloudflare Pages), the same way as vietslam.com. All links are hash routes (`#/p/vpw/ares`), so no rewrite rules are needed.
 
+`artifact.html` is the same app packaged for a claude.ai artifact. It has no `<html>`/`<head>` wrapper, and navigation stays inside the page (`window.HT_MEMORY_ROUTER`), with a Back button in the header. Publish it with `assets/` and `data/catalog.json` as supporting files.
+
 ## What's in it
 
 | Page | Route | Notes |
