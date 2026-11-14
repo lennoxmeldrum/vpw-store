@@ -1,0 +1,8528 @@
+{
+ "version": "0.1-mockup",
+ "generated": "2026-11-14",
+ "platform": {
+  "name": "HOT TAG",
+  "tagline": "Official merch from Southeast Asian wrestling",
+  "madeIn": "Ho Chi Minh City, Vietnam",
+  "baseCurrency": "USD",
+  "currencies": {
+   "USD": {
+    "rate": 1,
+    "symbol": "$"
+   },
+   "VND": {
+    "rate": 26300,
+    "symbol": "₫"
+   },
+   "SGD": {
+    "rate": 1.31,
+    "symbol": "S$"
+   },
+   "MYR": {
+    "rate": 4.42,
+    "symbol": "RM"
+   },
+   "PHP": {
+    "rate": 58.5,
+    "symbol": "₱"
+   },
+   "THB": {
+    "rate": 34.2,
+    "symbol": "฿"
+   },
+   "IDR": {
+    "rate": 16200,
+    "symbol": "Rp"
+   },
+   "AUD": {
+    "rate": 1.53,
+    "symbol": "A$"
+   },
+   "JPY": {
+    "rate": 152,
+    "symbol": "¥"
+   },
+   "EUR": {
+    "rate": 0.93,
+    "symbol": "€"
+   },
+   "GBP": {
+    "rate": 0.79,
+    "symbol": "£"
+   },
+   "CAD": {
+    "rate": 1.39,
+    "symbol": "C$"
+   }
+  },
+  "shipping": [
+   {
+    "zone": "domestic",
+    "label": "Vietnam",
+    "countries": [
+     "VN"
+    ],
+    "standard": [
+     2.5,
+     "2–4 days"
+    ],
+    "express": [
+     5,
+     "1–2 days"
+    ]
+   },
+   {
+    "zone": "sea",
+    "label": "Southeast Asia",
+    "countries": [
+     "SG",
+     "MY",
+     "TH",
+     "PH",
+     "ID",
+     "KH",
+     "LA",
+     "MM",
+     "BN",
+     "TL"
+    ],
+    "standard": [
+     7,
+     "5–10 days"
+    ],
+    "express": [
+     15,
+     "2–4 days"
+    ]
+   },
+   {
+    "zone": "apac",
+    "label": "Asia-Pacific",
+    "countries": [
+     "JP",
+     "KR",
+     "CN",
+     "HK",
+     "TW",
+     "AU",
+     "NZ",
+     "IN"
+    ],
+    "standard": [
+     10,
+     "7–14 days"
+    ],
+    "express": [
+     22,
+     "3–5 days"
+    ]
+   },
+   {
+    "zone": "world",
+    "label": "Rest of the world",
+    "countries": [
+     "*"
+    ],
+    "standard": [
+     14,
+     "10–20 days"
+    ],
+    "express": [
+     32,
+     "4–7 days"
+    ]
+   }
+  ],
+  "revenueShare": {
+   "basis": "profit",
+   "talent": 0.5,
+   "promotion": 0.15,
+   "maker": 0.35,
+   "note": "Sample split of profit (price minus blank, print and payment fees) for the mock-up only."
+  }
+ },
+ "promotions": [
+  {
+   "id": "vpw",
+   "name": "Vietnam Pro Wrestling",
+   "short": "VPW",
+   "country": "Vietnam",
+   "countryCode": "VN",
+   "city": "Ho Chi Minh City",
+   "website": "https://www.vietnamprowrestling.com",
+   "logo": "assets/img/promotions/vpw/logo.webp",
+   "texture": "assets/img/promotions/vpw/texture.webp",
+   "hero": "assets/img/promotions/vpw/event.webp",
+   "tagline": "Vietnam's home of professional wrestling, live in Ho Chi Minh City.",
+   "theme": {
+    "primary": "#c9392b",
+    "accent": "#f7cd46",
+    "accentDeep": "#b1872f",
+    "onPrimary": "#ffffff",
+    "italic": true
+   },
+   "socials": {
+    "facebook": "https://www.facebook.com/VietnamProWrestling",
+    "instagram": "https://www.instagram.com/vietnam_prowrestling",
+    "tiktok": "https://www.tiktok.com/@vietnamprowrestling",
+    "x": "https://x.com/VietnamProWres"
+   },
+   "championships": [
+    {
+     "name": "VPW Vietnam Championship",
+     "holders": [
+      "da-butcherman"
+     ]
+    },
+    {
+     "name": "VPW Tag-Team Championship",
+     "holders": [
+      "rocky-huynh",
+      "the-british-horror"
+     ]
+    }
+   ],
+   "source": "Roster, logo and merch photos from vietnamprowrestling.com (Nov 2026)",
+   "order": 0
+  }
+ ],
+ "talent": [
+  {
+   "id": "da-butcherman",
+   "name": "Da Butcherman",
+   "nickname": null,
+   "title": "VPW Vietnam Champion",
+   "team": null,
+   "photo": "assets/img/talent/vpw/da-butcherman.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/danial.eiriasu",
+    "instagram": "https://www.instagram.com/da_butcherman/"
+   },
+   "promotion": "vpw",
+   "key": "vpw/da-butcherman"
+  },
+  {
+   "id": "ares",
+   "name": "Ares",
+   "nickname": "The Unstoppable Force",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/ares.webp",
+   "socials": {
+    "facebook": "https://m.facebook.com/people/The-Unstoppable-Force-Ares/61554872771473/",
+    "instagram": "https://www.instagram.com/ares.prowrestler?igsh=ZXNsa3VzZ2hmeDVv&amp;utm_source=qr",
+    "tiktok": "https://www.tiktok.com/@ares_vpw?_t=8odcLQAqFeS&amp;_r=1",
+    "youtube": "https://youtube.com/@aresvpw?si=n-ipmNxluFRaf79H"
+   },
+   "promotion": "vpw",
+   "key": "vpw/ares"
+  },
+  {
+   "id": "phuong-nam",
+   "name": "Phuong Nam",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/phuong-nam.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/PhuongNamComedian",
+    "instagram": "https://www.instagram.com/_alvissnam_/",
+    "tiktok": "https://www.tiktok.com/@phuongnamcomedian",
+    "youtube": "https://www.youtube.com/@SaigonT%E1%BA%BFu"
+   },
+   "promotion": "vpw",
+   "key": "vpw/phuong-nam"
+  },
+  {
+   "id": "rocky-huynh",
+   "name": "Rocky Huynh",
+   "nickname": "The Founder",
+   "title": "VPW Tag-Team Champion",
+   "team": null,
+   "photo": "assets/img/talent/vpw/rocky-huynh.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/AwesomeTaurus",
+    "instagram": "https://www.instagram.com/awesome.taurus",
+    "youtube": "https://youtube.com/@rockyhuynhvlogs"
+   },
+   "promotion": "vpw",
+   "key": "vpw/rocky-huynh"
+  },
+  {
+   "id": "the-british-horror",
+   "name": "The British Horror",
+   "nickname": null,
+   "title": "VPW Tag-Team Champion",
+   "team": null,
+   "photo": "assets/img/talent/vpw/the-british-horror.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/nate.newman01",
+    "instagram": "https://www.instagram.com/british_horror/"
+   },
+   "promotion": "vpw",
+   "key": "vpw/the-british-horror"
+  },
+  {
+   "id": "the-x-pat",
+   "name": "The X-Pat",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/the-x-pat.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/carey.wass",
+    "instagram": "https://www.instagram.com/tomcruisader/"
+   },
+   "promotion": "vpw",
+   "key": "vpw/the-x-pat"
+  },
+  {
+   "id": "sid-nguyen",
+   "name": "Sid Nguyen",
+   "nickname": "The Prince of Wrestling",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/sid-nguyen.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/SidNguyen.Prince",
+    "instagram": "https://www.instagram.com/sidnguyen.theprowrestler"
+   },
+   "promotion": "vpw",
+   "key": "vpw/sid-nguyen"
+  },
+  {
+   "id": "an-d",
+   "name": "An D",
+   "nickname": "The National Treasure",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/an-d.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/Andy.Do.0596/",
+    "instagram": "https://www.instagram.com/the.nationaltreasure/"
+   },
+   "promotion": "vpw",
+   "key": "vpw/an-d"
+  },
+  {
+   "id": "damien-wolfe",
+   "name": "Damien Wolfe",
+   "nickname": null,
+   "title": null,
+   "team": "vpw/vtx",
+   "photo": "assets/img/talent/vpw/damien-wolfe.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/VungtauXperienceVPW",
+    "instagram": "https://www.instagram.com/psycho_wolfe/"
+   },
+   "promotion": "vpw",
+   "key": "vpw/damien-wolfe"
+  },
+  {
+   "id": "phong-tran",
+   "name": "Phong Tran",
+   "nickname": null,
+   "title": null,
+   "team": "vpw/vtx",
+   "photo": "assets/img/talent/vpw/phong-tran.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/VungtauXperienceVPW",
+    "instagram": "https://www.instagram.com/phongtran.prowrestler/"
+   },
+   "promotion": "vpw",
+   "key": "vpw/phong-tran"
+  },
+  {
+   "id": "bobby",
+   "name": "Bobby",
+   "nickname": null,
+   "title": null,
+   "team": "vpw/the-classic-night",
+   "photo": "assets/img/talent/vpw/bobby.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/tran.john.9237",
+    "instagram": "https://www.instagram.com/bobby_vpw"
+   },
+   "promotion": "vpw",
+   "key": "vpw/bobby"
+  },
+  {
+   "id": "billy",
+   "name": "Billy",
+   "nickname": null,
+   "title": null,
+   "team": "vpw/the-classic-night",
+   "photo": "assets/img/talent/vpw/billy.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/thereal.ltnd/",
+    "instagram": "https://www.instagram.com/billy_vpw/",
+    "tiktok": "https://www.tiktok.com/@caubemapditnhungcute?_t=8ohPBmEhiEh&amp;_r=1"
+   },
+   "promotion": "vpw",
+   "key": "vpw/billy"
+  },
+  {
+   "id": "d-austin",
+   "name": "D. Austin",
+   "nickname": null,
+   "title": null,
+   "team": "vpw/vortex-rebellion",
+   "photo": "assets/img/talent/vpw/d-austin.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/long.kieu.77377/",
+    "instagram": "https://www.instagram.com/d_austin.vpw/",
+    "youtube": "https://www.youtube.com/@NhiDuongGia91"
+   },
+   "promotion": "vpw",
+   "key": "vpw/d-austin"
+  },
+  {
+   "id": "kira",
+   "name": "Kira",
+   "nickname": null,
+   "title": null,
+   "team": "vpw/vortex-rebellion",
+   "photo": "assets/img/talent/vpw/kira.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/loc.tran.429242",
+    "instagram": "https://www.instagram.com/loc_tran98_kira.vpw/"
+   },
+   "promotion": "vpw",
+   "key": "vpw/kira"
+  },
+  {
+   "id": "xiumin-long",
+   "name": "Xiumin Long",
+   "nickname": null,
+   "title": null,
+   "team": "vpw/vortex-rebellion",
+   "photo": "assets/img/talent/vpw/xiumin-long.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/long.xiumin.5",
+    "instagram": "https://www.instagram.com/longxiumin"
+   },
+   "promotion": "vpw",
+   "key": "vpw/xiumin-long"
+  },
+  {
+   "id": "hy-draco",
+   "name": "Hy Draco",
+   "nickname": "Saigon Mamba",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/hy-draco.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/giahuyVPW?mibextid=ZbWKwL",
+    "instagram": "https://www.instagram.com/draco.pleg?igsh=Y2t4aTl5NGZzNDZq"
+   },
+   "promotion": "vpw",
+   "key": "vpw/hy-draco"
+  },
+  {
+   "id": "kpy",
+   "name": "KPY",
+   "nickname": "Heatspitta",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/kpy.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/Wydma03/",
+    "instagram": "https://www.instagram.com/kpy_wydma/",
+    "tiktok": "https://www.tiktok.com/@kpy_wydma"
+   },
+   "promotion": "vpw",
+   "key": "vpw/kpy"
+  },
+  {
+   "id": "khoa-truong",
+   "name": "Khoa Truong",
+   "nickname": "The Undead Spirit",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/khoa-truong.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/khoatruongvpw/",
+    "instagram": "https://www.instagram.com/khoa_vpw_prowrestler/",
+    "tiktok": "https://www.tiktok.com/@wrestlingkhoa"
+   },
+   "promotion": "vpw",
+   "key": "vpw/khoa-truong"
+  },
+  {
+   "id": "henry",
+   "name": "Henry",
+   "nickname": "Slugshot",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/henry.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/hai.duyet.3/",
+    "instagram": "https://www.instagram.com/henry.vpw97/",
+    "tiktok": "https://www.tiktok.com/@henry97henry"
+   },
+   "promotion": "vpw",
+   "key": "vpw/henry"
+  },
+  {
+   "id": "dokuga",
+   "name": "Dokuga",
+   "nickname": null,
+   "title": null,
+   "team": "vpw/venomshank",
+   "photo": "assets/img/talent/vpw/dokuga.webp",
+   "socials": {},
+   "promotion": "vpw",
+   "key": "vpw/dokuga"
+  },
+  {
+   "id": "rensho",
+   "name": "Rensho",
+   "nickname": null,
+   "title": null,
+   "team": "vpw/venomshank",
+   "photo": "assets/img/talent/vpw/rensho.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/Venomshank",
+    "instagram": "https://www.instagram.com/venom.shank/"
+   },
+   "promotion": "vpw",
+   "key": "vpw/rensho"
+  },
+  {
+   "id": "jimmy-ag",
+   "name": "Jimmy AG",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/jimmy-ag.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/nguyentherykioh",
+    "instagram": "https://www.instagram.com/jimmyangiang/"
+   },
+   "promotion": "vpw",
+   "key": "vpw/jimmy-ag"
+  },
+  {
+   "id": "ronnie-el-rapido",
+   "name": "Ronnie El Rapido",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/ronnie-el-rapido.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/phong.rousey",
+    "instagram": "https://www.instagram.com/ronnie_el_rapido_vpw",
+    "tiktok": "https://www.tiktok.com/@_ronnie_el_rapido_vpw"
+   },
+   "promotion": "vpw",
+   "key": "vpw/ronnie-el-rapido"
+  },
+  {
+   "id": "zakhar",
+   "name": "Zakhar",
+   "nickname": "Thunder God",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/zakhar.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/profile.php?id=100017090981788",
+    "instagram": "https://www.instagram.com/zakhar_nhatrang",
+    "tiktok": "https://www.tiktok.com/@zakhar_fit96"
+   },
+   "promotion": "vpw",
+   "key": "vpw/zakhar"
+  },
+  {
+   "id": "meteor-kid",
+   "name": "Meteor Kid",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/meteor-kid.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/dinh.pham.924665",
+    "instagram": "https://www.instagram.com/meteorkid_dinhpham1305",
+    "tiktok": "https://www.tiktok.com/@quc.dinh.phm"
+   },
+   "promotion": "vpw",
+   "key": "vpw/meteor-kid"
+  },
+  {
+   "id": "miles-karu",
+   "name": "Miles Karu",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/miles-karu.webp",
+   "socials": {
+    "instagram": "https://www.instagram.com/vietnam_prowrestling",
+    "tiktok": "https://www.tiktok.com/@vietnamprowrestling",
+    "facebook": "https://www.facebook.com/VietnamProWrestling",
+    "x": "https://x.com/VietnamProWres"
+   },
+   "promotion": "vpw",
+   "key": "vpw/miles-karu"
+  }
+ ],
+ "teams": [
+  {
+   "id": "vtx",
+   "name": "VTX",
+   "members": [
+    "vpw/damien-wolfe",
+    "vpw/phong-tran"
+   ],
+   "promotion": "vpw",
+   "key": "vpw/vtx"
+  },
+  {
+   "id": "the-classic-night",
+   "name": "The Classic Night",
+   "members": [
+    "vpw/bobby",
+    "vpw/billy"
+   ],
+   "promotion": "vpw",
+   "key": "vpw/the-classic-night"
+  },
+  {
+   "id": "vortex-rebellion",
+   "name": "Vortex Rebellion",
+   "members": [
+    "vpw/d-austin",
+    "vpw/kira",
+    "vpw/xiumin-long"
+   ],
+   "promotion": "vpw",
+   "key": "vpw/vortex-rebellion"
+  },
+  {
+   "id": "venomshank",
+   "name": "Venomshank",
+   "members": [
+    "vpw/dokuga",
+    "vpw/rensho"
+   ],
+   "promotion": "vpw",
+   "key": "vpw/venomshank"
+  }
+ ],
+ "products": [
+  {
+   "id": "vpw-logo-tee",
+   "store": "vpw",
+   "promotion": "vpw",
+   "talent": [],
+   "title": "VPW Logo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "stock",
+   "description": "The classic. Red VPW mark with the full name underneath, on a black cotton tee.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": false,
+   "created": "2026-10-05",
+   "images": [
+    "assets/img/products/vpw/logo-tee-front.webp",
+    "assets/img/products/vpw/logo-tee-back.webp"
+   ],
+   "variants": [
+    {
+     "sku": "VPW-LOGO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 36
+    },
+    {
+     "sku": "VPW-LOGO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 39
+    },
+    {
+     "sku": "VPW-LOGO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 21
+    },
+    {
+     "sku": "VPW-LOGO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 34
+    },
+    {
+     "sku": "VPW-LOGO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 21
+    },
+    {
+     "sku": "VPW-LOGO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "vpw-tank",
+   "store": "vpw",
+   "promotion": "vpw",
+   "talent": [],
+   "title": "VPW Training Tank",
+   "type": "tank",
+   "price": 24,
+   "baseCost": 8,
+   "fulfilment": "stock",
+   "description": "Black tank with a small VPW chest mark and VIETNAM PRO WRESTLING down the back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": false,
+   "created": "2026-10-05",
+   "images": [
+    "assets/img/products/vpw/tank.webp"
+   ],
+   "variants": [
+    {
+     "sku": "VPW-TANK-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 13
+    },
+    {
+     "sku": "VPW-TANK-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "sku": "VPW-TANK-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 14
+    },
+    {
+     "sku": "VPW-TANK-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 14
+    },
+    {
+     "sku": "VPW-TANK-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "vpw-trucker-cap",
+   "store": "vpw",
+   "promotion": "vpw",
+   "talent": [],
+   "title": "VPW Trucker Cap",
+   "type": "cap",
+   "price": 26,
+   "baseCost": 7,
+   "fulfilment": "stock",
+   "description": "Black mesh-back trucker with an embroidered VPW front panel.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": false,
+   "created": "2026-10-05",
+   "images": [
+    "assets/img/products/vpw/cap.webp"
+   ],
+   "variants": [
+    {
+     "sku": "VPW-TRUCKER-CAP-BLA",
+     "color": "Black",
+     "stock": 18
+    }
+   ]
+  },
+  {
+   "id": "vpw-keychains",
+   "store": "vpw",
+   "promotion": "vpw",
+   "talent": [],
+   "title": "VPW Keychains",
+   "type": "keychain",
+   "price": 9,
+   "baseCost": 2,
+   "fulfilment": "stock",
+   "description": "Metal keychains: the Witness the Rise slogan, the VPW logo, and a mini VPW Vietnam Championship.",
+   "colors": [],
+   "sample": false,
+   "created": "2026-10-05",
+   "images": [
+    "assets/img/products/vpw/keychains.webp"
+   ],
+   "options": [
+    "Witness the Rise",
+    "VPW Logo",
+    "Vietnam Championship"
+   ],
+   "variants": [
+    {
+     "sku": "VPW-KEYCHAINS-WTR",
+     "option": "Witness the Rise",
+     "stock": 7
+    },
+    {
+     "sku": "VPW-KEYCHAINS-VL",
+     "option": "VPW Logo",
+     "stock": 7
+    },
+    {
+     "sku": "VPW-KEYCHAINS-VC",
+     "option": "Vietnam Championship",
+     "stock": 9
+    }
+   ]
+  },
+  {
+   "id": "vpw-da-butcherman-photo-tee",
+   "store": "vpw/da-butcherman",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/da-butcherman"
+   ],
+   "title": "Da Butcherman Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Da Butcherman photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-28",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-DA-BUTCHERMAN-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-da-butcherman-champion-tee",
+   "store": "vpw/da-butcherman",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/da-butcherman"
+   ],
+   "title": "Da Butcherman Champion Tee",
+   "type": "tee",
+   "price": 32,
+   "baseCost": 9.5,
+   "fulfilment": "preorder",
+   "description": "Celebrating Da Butcherman, VPW Vietnam Champion. Gold foil-effect print. Pre-order now; ships by the date shown.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-11-12",
+   "design": {
+    "style": "champion"
+   },
+   "shipsBy": "2026-12-10",
+   "variants": [
+    {
+     "sku": "VPW-DA-BUTCHERMAN-CHAMPION-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-CHAMPION-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-CHAMPION-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-CHAMPION-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-CHAMPION-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-CHAMPION-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-da-butcherman-type-tee",
+   "store": "vpw/da-butcherman",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/da-butcherman"
+   ],
+   "title": "Da Butcherman “VPW Vietnam Champion” Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Big, bold Da Butcherman lettering front and back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    },
+    {
+     "name": "Heather Grey",
+     "hex": "#9a9ca1"
+    }
+   ],
+   "sample": true,
+   "created": "2026-10-07",
+   "design": {
+    "style": "type"
+   },
+   "variants": [
+    {
+     "sku": "VPW-DA-BUTCHERMAN-TYPE-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-TYPE-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-TYPE-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-TYPE-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-TYPE-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-TYPE-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-TYPE-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-TYPE-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-TYPE-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-TYPE-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-TYPE-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-TYPE-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-TYPE-TEE-HEA-S",
+     "color": "Heather Grey",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-TYPE-TEE-HEA-M",
+     "color": "Heather Grey",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-TYPE-TEE-HEA-L",
+     "color": "Heather Grey",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-TYPE-TEE-HEA-XL",
+     "color": "Heather Grey",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-TYPE-TEE-HEA-2XL",
+     "color": "Heather Grey",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-TYPE-TEE-HEA-3XL",
+     "color": "Heather Grey",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-da-butcherman-hoodie",
+   "store": "vpw/da-butcherman",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/da-butcherman"
+   ],
+   "title": "Da Butcherman Hoodie",
+   "type": "hoodie",
+   "price": 58,
+   "baseCost": 21,
+   "fulfilment": "stock",
+   "description": "Heavyweight black hoodie with Da Butcherman printed on the chest.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-09-12",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-DA-BUTCHERMAN-HOODIE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 36
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-HOODIE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 1
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-HOODIE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 31
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-HOODIE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 19
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-HOODIE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 0
+    },
+    {
+     "sku": "VPW-DA-BUTCHERMAN-HOODIE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": 11
+    }
+   ]
+  },
+  {
+   "id": "vpw-da-butcherman-signed-8x10",
+   "store": "vpw/da-butcherman",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/da-butcherman"
+   ],
+   "title": "Da Butcherman Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by Da Butcherman. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-08-29",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 25,
+   "variants": [
+    {
+     "sku": "VPW-DA-BUTCHERMAN-SIGNED-8X10",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "vpw-da-butcherman-poster",
+   "store": "vpw/da-butcherman",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/da-butcherman"
+   ],
+   "title": "Da Butcherman Poster",
+   "type": "poster",
+   "price": 20,
+   "baseCost": 4,
+   "fulfilment": "made-to-order",
+   "description": "A3 poster on heavy matte stock. Printed when you order.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-09-13",
+   "design": {
+    "style": "poster"
+   },
+   "variants": [
+    {
+     "sku": "VPW-DA-BUTCHERMAN-POSTER",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-ares-photo-tee",
+   "store": "vpw/ares",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/ares"
+   ],
+   "title": "Ares Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Ares photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-11-04",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-ARES-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-ares-type-tee",
+   "store": "vpw/ares",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/ares"
+   ],
+   "title": "Ares “The Unstoppable Force” Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Big, bold Ares lettering front and back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    },
+    {
+     "name": "Heather Grey",
+     "hex": "#9a9ca1"
+    }
+   ],
+   "sample": true,
+   "created": "2026-10-07",
+   "design": {
+    "style": "type"
+   },
+   "variants": [
+    {
+     "sku": "VPW-ARES-TYPE-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-TYPE-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-TYPE-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-TYPE-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-TYPE-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-TYPE-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-TYPE-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-TYPE-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-TYPE-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-TYPE-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-TYPE-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-TYPE-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-TYPE-TEE-HEA-S",
+     "color": "Heather Grey",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-TYPE-TEE-HEA-M",
+     "color": "Heather Grey",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-TYPE-TEE-HEA-L",
+     "color": "Heather Grey",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-TYPE-TEE-HEA-XL",
+     "color": "Heather Grey",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-TYPE-TEE-HEA-2XL",
+     "color": "Heather Grey",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ARES-TYPE-TEE-HEA-3XL",
+     "color": "Heather Grey",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-ares-hoodie",
+   "store": "vpw/ares",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/ares"
+   ],
+   "title": "Ares Hoodie",
+   "type": "hoodie",
+   "price": 58,
+   "baseCost": 21,
+   "fulfilment": "stock",
+   "description": "Heavyweight black hoodie with Ares printed on the chest.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-10-15",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-ARES-HOODIE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 23
+    },
+    {
+     "sku": "VPW-ARES-HOODIE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 23
+    },
+    {
+     "sku": "VPW-ARES-HOODIE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 0
+    },
+    {
+     "sku": "VPW-ARES-HOODIE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "sku": "VPW-ARES-HOODIE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 0
+    },
+    {
+     "sku": "VPW-ARES-HOODIE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": 9
+    }
+   ]
+  },
+  {
+   "id": "vpw-phuong-nam-photo-tee",
+   "store": "vpw/phuong-nam",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/phuong-nam"
+   ],
+   "title": "Phuong Nam Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Phuong Nam photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-09-13",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-PHUONG-NAM-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-phuong-nam-type-tee",
+   "store": "vpw/phuong-nam",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/phuong-nam"
+   ],
+   "title": "Phuong Nam “VPW” Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Big, bold Phuong Nam lettering front and back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    },
+    {
+     "name": "Heather Grey",
+     "hex": "#9a9ca1"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-08",
+   "design": {
+    "style": "type"
+   },
+   "variants": [
+    {
+     "sku": "VPW-PHUONG-NAM-TYPE-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-TYPE-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-TYPE-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-TYPE-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-TYPE-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-TYPE-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-TYPE-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-TYPE-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-TYPE-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-TYPE-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-TYPE-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-TYPE-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-TYPE-TEE-HEA-S",
+     "color": "Heather Grey",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-TYPE-TEE-HEA-M",
+     "color": "Heather Grey",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-TYPE-TEE-HEA-L",
+     "color": "Heather Grey",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-TYPE-TEE-HEA-XL",
+     "color": "Heather Grey",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-TYPE-TEE-HEA-2XL",
+     "color": "Heather Grey",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHUONG-NAM-TYPE-TEE-HEA-3XL",
+     "color": "Heather Grey",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-phuong-nam-signed-8x10",
+   "store": "vpw/phuong-nam",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/phuong-nam"
+   ],
+   "title": "Phuong Nam Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by Phuong Nam. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-10-17",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 50,
+   "variants": [
+    {
+     "sku": "VPW-PHUONG-NAM-SIGNED-8X10",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "vpw-phuong-nam-poster",
+   "store": "vpw/phuong-nam",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/phuong-nam"
+   ],
+   "title": "Phuong Nam Poster",
+   "type": "poster",
+   "price": 20,
+   "baseCost": 4,
+   "fulfilment": "made-to-order",
+   "description": "A3 poster on heavy matte stock. Printed when you order.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-10-07",
+   "design": {
+    "style": "poster"
+   },
+   "variants": [
+    {
+     "sku": "VPW-PHUONG-NAM-POSTER",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-rocky-huynh-photo-tee",
+   "store": "vpw/rocky-huynh",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/rocky-huynh"
+   ],
+   "title": "Rocky Huynh Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Rocky Huynh photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-07-27",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-ROCKY-HUYNH-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-rocky-huynh-champion-tee",
+   "store": "vpw/rocky-huynh",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/rocky-huynh"
+   ],
+   "title": "Rocky Huynh Champion Tee",
+   "type": "tee",
+   "price": 32,
+   "baseCost": 9.5,
+   "fulfilment": "preorder",
+   "description": "Celebrating Rocky Huynh, VPW Tag-Team Champion. Gold foil-effect print. Pre-order now; ships by the date shown.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-11-12",
+   "design": {
+    "style": "champion"
+   },
+   "shipsBy": "2026-12-10",
+   "variants": [
+    {
+     "sku": "VPW-ROCKY-HUYNH-CHAMPION-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-CHAMPION-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-CHAMPION-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-CHAMPION-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-CHAMPION-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-CHAMPION-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-rocky-huynh-hoodie",
+   "store": "vpw/rocky-huynh",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/rocky-huynh"
+   ],
+   "title": "Rocky Huynh Hoodie",
+   "type": "hoodie",
+   "price": 58,
+   "baseCost": 21,
+   "fulfilment": "stock",
+   "description": "Heavyweight black hoodie with Rocky Huynh printed on the chest.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-09-28",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-ROCKY-HUYNH-HOODIE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 33
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-HOODIE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 3
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-HOODIE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 18
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-HOODIE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 17
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-HOODIE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 27
+    },
+    {
+     "sku": "VPW-ROCKY-HUYNH-HOODIE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": 33
+    }
+   ]
+  },
+  {
+   "id": "vpw-rocky-huynh-signed-8x10",
+   "store": "vpw/rocky-huynh",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/rocky-huynh"
+   ],
+   "title": "Rocky Huynh Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by Rocky Huynh. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-09-15",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 50,
+   "variants": [
+    {
+     "sku": "VPW-ROCKY-HUYNH-SIGNED-8X10",
+     "stock": 1
+    }
+   ]
+  },
+  {
+   "id": "vpw-the-british-horror-photo-tee",
+   "store": "vpw/the-british-horror",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/the-british-horror"
+   ],
+   "title": "The British Horror Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour The British Horror photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-07-27",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-THE-BRITISH-HORROR-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-BRITISH-HORROR-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-BRITISH-HORROR-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-BRITISH-HORROR-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-BRITISH-HORROR-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-BRITISH-HORROR-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-BRITISH-HORROR-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-BRITISH-HORROR-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-BRITISH-HORROR-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-BRITISH-HORROR-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-BRITISH-HORROR-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-BRITISH-HORROR-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-the-british-horror-champion-tee",
+   "store": "vpw/the-british-horror",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/the-british-horror"
+   ],
+   "title": "The British Horror Champion Tee",
+   "type": "tee",
+   "price": 32,
+   "baseCost": 9.5,
+   "fulfilment": "preorder",
+   "description": "Celebrating The British Horror, VPW Tag-Team Champion. Gold foil-effect print. Pre-order now; ships by the date shown.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-11-12",
+   "design": {
+    "style": "champion"
+   },
+   "shipsBy": "2026-12-10",
+   "variants": [
+    {
+     "sku": "VPW-THE-BRITISH-HORROR-CHAMPION-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-BRITISH-HORROR-CHAMPION-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-BRITISH-HORROR-CHAMPION-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-BRITISH-HORROR-CHAMPION-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-BRITISH-HORROR-CHAMPION-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-BRITISH-HORROR-CHAMPION-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-the-x-pat-photo-tee",
+   "store": "vpw/the-x-pat",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/the-x-pat"
+   ],
+   "title": "The X-Pat Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour The X-Pat photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-11-01",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-THE-X-PAT-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-the-x-pat-type-tee",
+   "store": "vpw/the-x-pat",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/the-x-pat"
+   ],
+   "title": "The X-Pat “VPW” Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Big, bold The X-Pat lettering front and back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    },
+    {
+     "name": "Heather Grey",
+     "hex": "#9a9ca1"
+    }
+   ],
+   "sample": true,
+   "created": "2026-09-21",
+   "design": {
+    "style": "type"
+   },
+   "variants": [
+    {
+     "sku": "VPW-THE-X-PAT-TYPE-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-TYPE-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-TYPE-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-TYPE-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-TYPE-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-TYPE-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-TYPE-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-TYPE-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-TYPE-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-TYPE-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-TYPE-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-TYPE-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-TYPE-TEE-HEA-S",
+     "color": "Heather Grey",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-TYPE-TEE-HEA-M",
+     "color": "Heather Grey",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-TYPE-TEE-HEA-L",
+     "color": "Heather Grey",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-TYPE-TEE-HEA-XL",
+     "color": "Heather Grey",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-TYPE-TEE-HEA-2XL",
+     "color": "Heather Grey",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-X-PAT-TYPE-TEE-HEA-3XL",
+     "color": "Heather Grey",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-the-x-pat-hoodie",
+   "store": "vpw/the-x-pat",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/the-x-pat"
+   ],
+   "title": "The X-Pat Hoodie",
+   "type": "hoodie",
+   "price": 58,
+   "baseCost": 21,
+   "fulfilment": "stock",
+   "description": "Heavyweight black hoodie with The X-Pat printed on the chest.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-22",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-THE-X-PAT-HOODIE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 23
+    },
+    {
+     "sku": "VPW-THE-X-PAT-HOODIE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 26
+    },
+    {
+     "sku": "VPW-THE-X-PAT-HOODIE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 24
+    },
+    {
+     "sku": "VPW-THE-X-PAT-HOODIE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 10
+    },
+    {
+     "sku": "VPW-THE-X-PAT-HOODIE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 0
+    },
+    {
+     "sku": "VPW-THE-X-PAT-HOODIE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "vpw-the-x-pat-signed-8x10",
+   "store": "vpw/the-x-pat",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/the-x-pat"
+   ],
+   "title": "The X-Pat Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by The X-Pat. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-10-14",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 100,
+   "variants": [
+    {
+     "sku": "VPW-THE-X-PAT-SIGNED-8X10",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "vpw-the-x-pat-poster",
+   "store": "vpw/the-x-pat",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/the-x-pat"
+   ],
+   "title": "The X-Pat Poster",
+   "type": "poster",
+   "price": 20,
+   "baseCost": 4,
+   "fulfilment": "made-to-order",
+   "description": "A3 poster on heavy matte stock. Printed when you order.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-11-02",
+   "design": {
+    "style": "poster"
+   },
+   "variants": [
+    {
+     "sku": "VPW-THE-X-PAT-POSTER",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-sid-nguyen-photo-tee",
+   "store": "vpw/sid-nguyen",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/sid-nguyen"
+   ],
+   "title": "Sid Nguyen Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Sid Nguyen photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-28",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-SID-NGUYEN-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-sid-nguyen-type-tee",
+   "store": "vpw/sid-nguyen",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/sid-nguyen"
+   ],
+   "title": "Sid Nguyen “The Prince of Wrestling” Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Big, bold Sid Nguyen lettering front and back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    },
+    {
+     "name": "Heather Grey",
+     "hex": "#9a9ca1"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-21",
+   "design": {
+    "style": "type"
+   },
+   "variants": [
+    {
+     "sku": "VPW-SID-NGUYEN-TYPE-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-TYPE-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-TYPE-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-TYPE-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-TYPE-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-TYPE-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-TYPE-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-TYPE-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-TYPE-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-TYPE-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-TYPE-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-TYPE-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-TYPE-TEE-HEA-S",
+     "color": "Heather Grey",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-TYPE-TEE-HEA-M",
+     "color": "Heather Grey",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-TYPE-TEE-HEA-L",
+     "color": "Heather Grey",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-TYPE-TEE-HEA-XL",
+     "color": "Heather Grey",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-TYPE-TEE-HEA-2XL",
+     "color": "Heather Grey",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-TYPE-TEE-HEA-3XL",
+     "color": "Heather Grey",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-sid-nguyen-hoodie",
+   "store": "vpw/sid-nguyen",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/sid-nguyen"
+   ],
+   "title": "Sid Nguyen Hoodie",
+   "type": "hoodie",
+   "price": 58,
+   "baseCost": 21,
+   "fulfilment": "stock",
+   "description": "Heavyweight black hoodie with Sid Nguyen printed on the chest.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-09-07",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-SID-NGUYEN-HOODIE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 2
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-HOODIE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 12
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-HOODIE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 28
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-HOODIE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 29
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-HOODIE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 0
+    },
+    {
+     "sku": "VPW-SID-NGUYEN-HOODIE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "vpw-sid-nguyen-signed-8x10",
+   "store": "vpw/sid-nguyen",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/sid-nguyen"
+   ],
+   "title": "Sid Nguyen Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by Sid Nguyen. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-09-28",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 100,
+   "variants": [
+    {
+     "sku": "VPW-SID-NGUYEN-SIGNED-8X10",
+     "stock": 1
+    }
+   ]
+  },
+  {
+   "id": "vpw-an-d-photo-tee",
+   "store": "vpw/an-d",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/an-d"
+   ],
+   "title": "An D Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour An D photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-09-16",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-AN-D-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-AN-D-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-AN-D-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-AN-D-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-AN-D-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-AN-D-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-AN-D-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-AN-D-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-AN-D-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-AN-D-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-AN-D-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-AN-D-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-an-d-hoodie",
+   "store": "vpw/an-d",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/an-d"
+   ],
+   "title": "An D Hoodie",
+   "type": "hoodie",
+   "price": 58,
+   "baseCost": 21,
+   "fulfilment": "stock",
+   "description": "Heavyweight black hoodie with An D printed on the chest.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-13",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-AN-D-HOODIE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 36
+    },
+    {
+     "sku": "VPW-AN-D-HOODIE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 30
+    },
+    {
+     "sku": "VPW-AN-D-HOODIE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 7
+    },
+    {
+     "sku": "VPW-AN-D-HOODIE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 16
+    },
+    {
+     "sku": "VPW-AN-D-HOODIE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 25
+    },
+    {
+     "sku": "VPW-AN-D-HOODIE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "vpw-an-d-signed-8x10",
+   "store": "vpw/an-d",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/an-d"
+   ],
+   "title": "An D Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by An D. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-09-06",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 25,
+   "variants": [
+    {
+     "sku": "VPW-AN-D-SIGNED-8X10",
+     "stock": 4
+    }
+   ]
+  },
+  {
+   "id": "vpw-damien-wolfe-photo-tee",
+   "store": "vpw/damien-wolfe",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/damien-wolfe"
+   ],
+   "title": "Damien Wolfe Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Damien Wolfe photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-11-01",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-DAMIEN-WOLFE-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-damien-wolfe-type-tee",
+   "store": "vpw/damien-wolfe",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/damien-wolfe"
+   ],
+   "title": "Damien Wolfe “VPW” Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Big, bold Damien Wolfe lettering front and back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    },
+    {
+     "name": "Heather Grey",
+     "hex": "#9a9ca1"
+    }
+   ],
+   "sample": true,
+   "created": "2026-10-12",
+   "design": {
+    "style": "type"
+   },
+   "variants": [
+    {
+     "sku": "VPW-DAMIEN-WOLFE-TYPE-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-TYPE-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-TYPE-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-TYPE-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-TYPE-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-TYPE-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-TYPE-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-TYPE-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-TYPE-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-TYPE-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-TYPE-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-TYPE-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-TYPE-TEE-HEA-S",
+     "color": "Heather Grey",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-TYPE-TEE-HEA-M",
+     "color": "Heather Grey",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-TYPE-TEE-HEA-L",
+     "color": "Heather Grey",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-TYPE-TEE-HEA-XL",
+     "color": "Heather Grey",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-TYPE-TEE-HEA-2XL",
+     "color": "Heather Grey",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DAMIEN-WOLFE-TYPE-TEE-HEA-3XL",
+     "color": "Heather Grey",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-damien-wolfe-signed-8x10",
+   "store": "vpw/damien-wolfe",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/damien-wolfe"
+   ],
+   "title": "Damien Wolfe Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by Damien Wolfe. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-08-27",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 25,
+   "variants": [
+    {
+     "sku": "VPW-DAMIEN-WOLFE-SIGNED-8X10",
+     "stock": 18
+    }
+   ]
+  },
+  {
+   "id": "vpw-phong-tran-photo-tee",
+   "store": "vpw/phong-tran",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/phong-tran"
+   ],
+   "title": "Phong Tran Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Phong Tran photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-29",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-PHONG-TRAN-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-phong-tran-type-tee",
+   "store": "vpw/phong-tran",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/phong-tran"
+   ],
+   "title": "Phong Tran “VPW” Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Big, bold Phong Tran lettering front and back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    },
+    {
+     "name": "Heather Grey",
+     "hex": "#9a9ca1"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-21",
+   "design": {
+    "style": "type"
+   },
+   "variants": [
+    {
+     "sku": "VPW-PHONG-TRAN-TYPE-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-TYPE-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-TYPE-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-TYPE-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-TYPE-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-TYPE-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-TYPE-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-TYPE-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-TYPE-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-TYPE-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-TYPE-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-TYPE-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-TYPE-TEE-HEA-S",
+     "color": "Heather Grey",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-TYPE-TEE-HEA-M",
+     "color": "Heather Grey",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-TYPE-TEE-HEA-L",
+     "color": "Heather Grey",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-TYPE-TEE-HEA-XL",
+     "color": "Heather Grey",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-TYPE-TEE-HEA-2XL",
+     "color": "Heather Grey",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-PHONG-TRAN-TYPE-TEE-HEA-3XL",
+     "color": "Heather Grey",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-phong-tran-poster",
+   "store": "vpw/phong-tran",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/phong-tran"
+   ],
+   "title": "Phong Tran Poster",
+   "type": "poster",
+   "price": 20,
+   "baseCost": 4,
+   "fulfilment": "made-to-order",
+   "description": "A3 poster on heavy matte stock. Printed when you order.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-10-07",
+   "design": {
+    "style": "poster"
+   },
+   "variants": [
+    {
+     "sku": "VPW-PHONG-TRAN-POSTER",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-bobby-photo-tee",
+   "store": "vpw/bobby",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/bobby"
+   ],
+   "title": "Bobby Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Bobby photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-16",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-BOBBY-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-bobby-type-tee",
+   "store": "vpw/bobby",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/bobby"
+   ],
+   "title": "Bobby “VPW” Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Big, bold Bobby lettering front and back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    },
+    {
+     "name": "Heather Grey",
+     "hex": "#9a9ca1"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-17",
+   "design": {
+    "style": "type"
+   },
+   "variants": [
+    {
+     "sku": "VPW-BOBBY-TYPE-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-TYPE-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-TYPE-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-TYPE-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-TYPE-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-TYPE-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-TYPE-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-TYPE-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-TYPE-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-TYPE-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-TYPE-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-TYPE-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-TYPE-TEE-HEA-S",
+     "color": "Heather Grey",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-TYPE-TEE-HEA-M",
+     "color": "Heather Grey",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-TYPE-TEE-HEA-L",
+     "color": "Heather Grey",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-TYPE-TEE-HEA-XL",
+     "color": "Heather Grey",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-TYPE-TEE-HEA-2XL",
+     "color": "Heather Grey",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BOBBY-TYPE-TEE-HEA-3XL",
+     "color": "Heather Grey",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-bobby-signed-8x10",
+   "store": "vpw/bobby",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/bobby"
+   ],
+   "title": "Bobby Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by Bobby. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-11-01",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 25,
+   "variants": [
+    {
+     "sku": "VPW-BOBBY-SIGNED-8X10",
+     "stock": 33
+    }
+   ]
+  },
+  {
+   "id": "vpw-billy-photo-tee",
+   "store": "vpw/billy",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/billy"
+   ],
+   "title": "Billy Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Billy photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-11-03",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-BILLY-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-billy-type-tee",
+   "store": "vpw/billy",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/billy"
+   ],
+   "title": "Billy “VPW” Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Big, bold Billy lettering front and back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    },
+    {
+     "name": "Heather Grey",
+     "hex": "#9a9ca1"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-03",
+   "design": {
+    "style": "type"
+   },
+   "variants": [
+    {
+     "sku": "VPW-BILLY-TYPE-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-TYPE-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-TYPE-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-TYPE-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-TYPE-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-TYPE-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-TYPE-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-TYPE-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-TYPE-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-TYPE-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-TYPE-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-TYPE-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-TYPE-TEE-HEA-S",
+     "color": "Heather Grey",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-TYPE-TEE-HEA-M",
+     "color": "Heather Grey",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-TYPE-TEE-HEA-L",
+     "color": "Heather Grey",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-TYPE-TEE-HEA-XL",
+     "color": "Heather Grey",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-TYPE-TEE-HEA-2XL",
+     "color": "Heather Grey",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-BILLY-TYPE-TEE-HEA-3XL",
+     "color": "Heather Grey",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-billy-signed-8x10",
+   "store": "vpw/billy",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/billy"
+   ],
+   "title": "Billy Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by Billy. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-09-20",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 100,
+   "variants": [
+    {
+     "sku": "VPW-BILLY-SIGNED-8X10",
+     "stock": 3
+    }
+   ]
+  },
+  {
+   "id": "vpw-billy-poster",
+   "store": "vpw/billy",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/billy"
+   ],
+   "title": "Billy Poster",
+   "type": "poster",
+   "price": 20,
+   "baseCost": 4,
+   "fulfilment": "made-to-order",
+   "description": "A3 poster on heavy matte stock. Printed when you order.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-08-08",
+   "design": {
+    "style": "poster"
+   },
+   "variants": [
+    {
+     "sku": "VPW-BILLY-POSTER",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-d-austin-photo-tee",
+   "store": "vpw/d-austin",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/d-austin"
+   ],
+   "title": "D. Austin Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour D. Austin photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-09-23",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-D-AUSTIN-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-D-AUSTIN-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-D-AUSTIN-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-D-AUSTIN-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-D-AUSTIN-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-D-AUSTIN-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-D-AUSTIN-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-D-AUSTIN-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-D-AUSTIN-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-D-AUSTIN-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-D-AUSTIN-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-D-AUSTIN-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-d-austin-hoodie",
+   "store": "vpw/d-austin",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/d-austin"
+   ],
+   "title": "D. Austin Hoodie",
+   "type": "hoodie",
+   "price": 58,
+   "baseCost": 21,
+   "fulfilment": "stock",
+   "description": "Heavyweight black hoodie with D. Austin printed on the chest.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-11-09",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-D-AUSTIN-HOODIE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 2
+    },
+    {
+     "sku": "VPW-D-AUSTIN-HOODIE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 4
+    },
+    {
+     "sku": "VPW-D-AUSTIN-HOODIE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 17
+    },
+    {
+     "sku": "VPW-D-AUSTIN-HOODIE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 2
+    },
+    {
+     "sku": "VPW-D-AUSTIN-HOODIE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 15
+    },
+    {
+     "sku": "VPW-D-AUSTIN-HOODIE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": 36
+    }
+   ]
+  },
+  {
+   "id": "vpw-d-austin-signed-8x10",
+   "store": "vpw/d-austin",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/d-austin"
+   ],
+   "title": "D. Austin Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by D. Austin. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-10-14",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 100,
+   "variants": [
+    {
+     "sku": "VPW-D-AUSTIN-SIGNED-8X10",
+     "stock": 20
+    }
+   ]
+  },
+  {
+   "id": "vpw-kira-photo-tee",
+   "store": "vpw/kira",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/kira"
+   ],
+   "title": "Kira Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Kira photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-22",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-KIRA-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-kira-type-tee",
+   "store": "vpw/kira",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/kira"
+   ],
+   "title": "Kira “VPW” Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Big, bold Kira lettering front and back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    },
+    {
+     "name": "Heather Grey",
+     "hex": "#9a9ca1"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-04",
+   "design": {
+    "style": "type"
+   },
+   "variants": [
+    {
+     "sku": "VPW-KIRA-TYPE-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-TYPE-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-TYPE-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-TYPE-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-TYPE-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-TYPE-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-TYPE-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-TYPE-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-TYPE-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-TYPE-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-TYPE-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-TYPE-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-TYPE-TEE-HEA-S",
+     "color": "Heather Grey",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-TYPE-TEE-HEA-M",
+     "color": "Heather Grey",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-TYPE-TEE-HEA-L",
+     "color": "Heather Grey",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-TYPE-TEE-HEA-XL",
+     "color": "Heather Grey",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-TYPE-TEE-HEA-2XL",
+     "color": "Heather Grey",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KIRA-TYPE-TEE-HEA-3XL",
+     "color": "Heather Grey",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-kira-hoodie",
+   "store": "vpw/kira",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/kira"
+   ],
+   "title": "Kira Hoodie",
+   "type": "hoodie",
+   "price": 58,
+   "baseCost": 21,
+   "fulfilment": "stock",
+   "description": "Heavyweight black hoodie with Kira printed on the chest.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-18",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-KIRA-HOODIE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 7
+    },
+    {
+     "sku": "VPW-KIRA-HOODIE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "sku": "VPW-KIRA-HOODIE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 3
+    },
+    {
+     "sku": "VPW-KIRA-HOODIE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 15
+    },
+    {
+     "sku": "VPW-KIRA-HOODIE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 31
+    },
+    {
+     "sku": "VPW-KIRA-HOODIE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "vpw-xiumin-long-photo-tee",
+   "store": "vpw/xiumin-long",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/xiumin-long"
+   ],
+   "title": "Xiumin Long Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Xiumin Long photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-12",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-XIUMIN-LONG-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-xiumin-long-type-tee",
+   "store": "vpw/xiumin-long",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/xiumin-long"
+   ],
+   "title": "Xiumin Long “VPW” Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Big, bold Xiumin Long lettering front and back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    },
+    {
+     "name": "Heather Grey",
+     "hex": "#9a9ca1"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-31",
+   "design": {
+    "style": "type"
+   },
+   "variants": [
+    {
+     "sku": "VPW-XIUMIN-LONG-TYPE-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-TYPE-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-TYPE-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-TYPE-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-TYPE-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-TYPE-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-TYPE-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-TYPE-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-TYPE-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-TYPE-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-TYPE-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-TYPE-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-TYPE-TEE-HEA-S",
+     "color": "Heather Grey",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-TYPE-TEE-HEA-M",
+     "color": "Heather Grey",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-TYPE-TEE-HEA-L",
+     "color": "Heather Grey",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-TYPE-TEE-HEA-XL",
+     "color": "Heather Grey",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-TYPE-TEE-HEA-2XL",
+     "color": "Heather Grey",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-TYPE-TEE-HEA-3XL",
+     "color": "Heather Grey",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-xiumin-long-hoodie",
+   "store": "vpw/xiumin-long",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/xiumin-long"
+   ],
+   "title": "Xiumin Long Hoodie",
+   "type": "hoodie",
+   "price": 58,
+   "baseCost": 21,
+   "fulfilment": "stock",
+   "description": "Heavyweight black hoodie with Xiumin Long printed on the chest.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-10-15",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-XIUMIN-LONG-HOODIE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 4
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-HOODIE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 17
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-HOODIE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 36
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-HOODIE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 30
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-HOODIE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 0
+    },
+    {
+     "sku": "VPW-XIUMIN-LONG-HOODIE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": 8
+    }
+   ]
+  },
+  {
+   "id": "vpw-xiumin-long-poster",
+   "store": "vpw/xiumin-long",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/xiumin-long"
+   ],
+   "title": "Xiumin Long Poster",
+   "type": "poster",
+   "price": 20,
+   "baseCost": 4,
+   "fulfilment": "made-to-order",
+   "description": "A3 poster on heavy matte stock. Printed when you order.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-11-13",
+   "design": {
+    "style": "poster"
+   },
+   "variants": [
+    {
+     "sku": "VPW-XIUMIN-LONG-POSTER",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-hy-draco-photo-tee",
+   "store": "vpw/hy-draco",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/hy-draco"
+   ],
+   "title": "Hy Draco Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Hy Draco photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-10-01",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-HY-DRACO-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-hy-draco-type-tee",
+   "store": "vpw/hy-draco",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/hy-draco"
+   ],
+   "title": "Hy Draco “Saigon Mamba” Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Big, bold Hy Draco lettering front and back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    },
+    {
+     "name": "Heather Grey",
+     "hex": "#9a9ca1"
+    }
+   ],
+   "sample": true,
+   "created": "2026-09-26",
+   "design": {
+    "style": "type"
+   },
+   "variants": [
+    {
+     "sku": "VPW-HY-DRACO-TYPE-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-TYPE-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-TYPE-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-TYPE-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-TYPE-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-TYPE-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-TYPE-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-TYPE-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-TYPE-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-TYPE-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-TYPE-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-TYPE-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-TYPE-TEE-HEA-S",
+     "color": "Heather Grey",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-TYPE-TEE-HEA-M",
+     "color": "Heather Grey",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-TYPE-TEE-HEA-L",
+     "color": "Heather Grey",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-TYPE-TEE-HEA-XL",
+     "color": "Heather Grey",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-TYPE-TEE-HEA-2XL",
+     "color": "Heather Grey",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HY-DRACO-TYPE-TEE-HEA-3XL",
+     "color": "Heather Grey",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-hy-draco-signed-8x10",
+   "store": "vpw/hy-draco",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/hy-draco"
+   ],
+   "title": "Hy Draco Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by Hy Draco. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-11-10",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 50,
+   "variants": [
+    {
+     "sku": "VPW-HY-DRACO-SIGNED-8X10",
+     "stock": 22
+    }
+   ]
+  },
+  {
+   "id": "vpw-kpy-photo-tee",
+   "store": "vpw/kpy",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/kpy"
+   ],
+   "title": "KPY Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour KPY photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-09-14",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-KPY-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KPY-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KPY-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KPY-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KPY-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KPY-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KPY-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KPY-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KPY-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KPY-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KPY-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KPY-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-kpy-hoodie",
+   "store": "vpw/kpy",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/kpy"
+   ],
+   "title": "KPY Hoodie",
+   "type": "hoodie",
+   "price": 58,
+   "baseCost": 21,
+   "fulfilment": "stock",
+   "description": "Heavyweight black hoodie with KPY printed on the chest.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-07-23",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-KPY-HOODIE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 16
+    },
+    {
+     "sku": "VPW-KPY-HOODIE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 2
+    },
+    {
+     "sku": "VPW-KPY-HOODIE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 1
+    },
+    {
+     "sku": "VPW-KPY-HOODIE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 19
+    },
+    {
+     "sku": "VPW-KPY-HOODIE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 0
+    },
+    {
+     "sku": "VPW-KPY-HOODIE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": 29
+    }
+   ]
+  },
+  {
+   "id": "vpw-kpy-signed-8x10",
+   "store": "vpw/kpy",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/kpy"
+   ],
+   "title": "KPY Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by KPY. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-08-24",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 25,
+   "variants": [
+    {
+     "sku": "VPW-KPY-SIGNED-8X10",
+     "stock": 25
+    }
+   ]
+  },
+  {
+   "id": "vpw-khoa-truong-photo-tee",
+   "store": "vpw/khoa-truong",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/khoa-truong"
+   ],
+   "title": "Khoa Truong Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Khoa Truong photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-07-21",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-KHOA-TRUONG-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-khoa-truong-type-tee",
+   "store": "vpw/khoa-truong",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/khoa-truong"
+   ],
+   "title": "Khoa Truong “The Undead Spirit” Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Big, bold Khoa Truong lettering front and back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    },
+    {
+     "name": "Heather Grey",
+     "hex": "#9a9ca1"
+    }
+   ],
+   "sample": true,
+   "created": "2026-11-13",
+   "design": {
+    "style": "type"
+   },
+   "variants": [
+    {
+     "sku": "VPW-KHOA-TRUONG-TYPE-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-TYPE-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-TYPE-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-TYPE-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-TYPE-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-TYPE-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-TYPE-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-TYPE-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-TYPE-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-TYPE-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-TYPE-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-TYPE-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-TYPE-TEE-HEA-S",
+     "color": "Heather Grey",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-TYPE-TEE-HEA-M",
+     "color": "Heather Grey",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-TYPE-TEE-HEA-L",
+     "color": "Heather Grey",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-TYPE-TEE-HEA-XL",
+     "color": "Heather Grey",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-TYPE-TEE-HEA-2XL",
+     "color": "Heather Grey",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-TYPE-TEE-HEA-3XL",
+     "color": "Heather Grey",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-khoa-truong-hoodie",
+   "store": "vpw/khoa-truong",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/khoa-truong"
+   ],
+   "title": "Khoa Truong Hoodie",
+   "type": "hoodie",
+   "price": 58,
+   "baseCost": 21,
+   "fulfilment": "stock",
+   "description": "Heavyweight black hoodie with Khoa Truong printed on the chest.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-09-24",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-KHOA-TRUONG-HOODIE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 10
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-HOODIE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-HOODIE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 22
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-HOODIE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 7
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-HOODIE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 0
+    },
+    {
+     "sku": "VPW-KHOA-TRUONG-HOODIE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "vpw-khoa-truong-signed-8x10",
+   "store": "vpw/khoa-truong",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/khoa-truong"
+   ],
+   "title": "Khoa Truong Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by Khoa Truong. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-09-27",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 25,
+   "variants": [
+    {
+     "sku": "VPW-KHOA-TRUONG-SIGNED-8X10",
+     "stock": 33
+    }
+   ]
+  },
+  {
+   "id": "vpw-henry-photo-tee",
+   "store": "vpw/henry",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/henry"
+   ],
+   "title": "Henry Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Henry photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-25",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-HENRY-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HENRY-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HENRY-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HENRY-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HENRY-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HENRY-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HENRY-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HENRY-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HENRY-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HENRY-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HENRY-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-HENRY-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-henry-hoodie",
+   "store": "vpw/henry",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/henry"
+   ],
+   "title": "Henry Hoodie",
+   "type": "hoodie",
+   "price": 58,
+   "baseCost": 21,
+   "fulfilment": "stock",
+   "description": "Heavyweight black hoodie with Henry printed on the chest.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-09-27",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-HENRY-HOODIE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 14
+    },
+    {
+     "sku": "VPW-HENRY-HOODIE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 3
+    },
+    {
+     "sku": "VPW-HENRY-HOODIE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 22
+    },
+    {
+     "sku": "VPW-HENRY-HOODIE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 17
+    },
+    {
+     "sku": "VPW-HENRY-HOODIE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 16
+    },
+    {
+     "sku": "VPW-HENRY-HOODIE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "vpw-henry-signed-8x10",
+   "store": "vpw/henry",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/henry"
+   ],
+   "title": "Henry Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by Henry. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-10-10",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 50,
+   "variants": [
+    {
+     "sku": "VPW-HENRY-SIGNED-8X10",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "vpw-dokuga-photo-tee",
+   "store": "vpw/dokuga",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/dokuga"
+   ],
+   "title": "Dokuga Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Dokuga photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-11-05",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-DOKUGA-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-dokuga-type-tee",
+   "store": "vpw/dokuga",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/dokuga"
+   ],
+   "title": "Dokuga “VPW” Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Big, bold Dokuga lettering front and back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    },
+    {
+     "name": "Heather Grey",
+     "hex": "#9a9ca1"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-19",
+   "design": {
+    "style": "type"
+   },
+   "variants": [
+    {
+     "sku": "VPW-DOKUGA-TYPE-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-TYPE-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-TYPE-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-TYPE-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-TYPE-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-TYPE-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-TYPE-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-TYPE-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-TYPE-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-TYPE-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-TYPE-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-TYPE-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-TYPE-TEE-HEA-S",
+     "color": "Heather Grey",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-TYPE-TEE-HEA-M",
+     "color": "Heather Grey",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-TYPE-TEE-HEA-L",
+     "color": "Heather Grey",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-TYPE-TEE-HEA-XL",
+     "color": "Heather Grey",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-TYPE-TEE-HEA-2XL",
+     "color": "Heather Grey",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-DOKUGA-TYPE-TEE-HEA-3XL",
+     "color": "Heather Grey",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-dokuga-hoodie",
+   "store": "vpw/dokuga",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/dokuga"
+   ],
+   "title": "Dokuga Hoodie",
+   "type": "hoodie",
+   "price": 58,
+   "baseCost": 21,
+   "fulfilment": "stock",
+   "description": "Heavyweight black hoodie with Dokuga printed on the chest.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-31",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-DOKUGA-HOODIE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 1
+    },
+    {
+     "sku": "VPW-DOKUGA-HOODIE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 2
+    },
+    {
+     "sku": "VPW-DOKUGA-HOODIE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 18
+    },
+    {
+     "sku": "VPW-DOKUGA-HOODIE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 0
+    },
+    {
+     "sku": "VPW-DOKUGA-HOODIE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 0
+    },
+    {
+     "sku": "VPW-DOKUGA-HOODIE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": 7
+    }
+   ]
+  },
+  {
+   "id": "vpw-dokuga-signed-8x10",
+   "store": "vpw/dokuga",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/dokuga"
+   ],
+   "title": "Dokuga Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by Dokuga. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-08-19",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 25,
+   "variants": [
+    {
+     "sku": "VPW-DOKUGA-SIGNED-8X10",
+     "stock": 33
+    }
+   ]
+  },
+  {
+   "id": "vpw-rensho-photo-tee",
+   "store": "vpw/rensho",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/rensho"
+   ],
+   "title": "Rensho Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Rensho photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-07-30",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-RENSHO-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-rensho-type-tee",
+   "store": "vpw/rensho",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/rensho"
+   ],
+   "title": "Rensho “VPW” Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Big, bold Rensho lettering front and back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    },
+    {
+     "name": "Heather Grey",
+     "hex": "#9a9ca1"
+    }
+   ],
+   "sample": true,
+   "created": "2026-11-13",
+   "design": {
+    "style": "type"
+   },
+   "variants": [
+    {
+     "sku": "VPW-RENSHO-TYPE-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-TYPE-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-TYPE-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-TYPE-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-TYPE-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-TYPE-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-TYPE-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-TYPE-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-TYPE-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-TYPE-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-TYPE-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-TYPE-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-TYPE-TEE-HEA-S",
+     "color": "Heather Grey",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-TYPE-TEE-HEA-M",
+     "color": "Heather Grey",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-TYPE-TEE-HEA-L",
+     "color": "Heather Grey",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-TYPE-TEE-HEA-XL",
+     "color": "Heather Grey",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-TYPE-TEE-HEA-2XL",
+     "color": "Heather Grey",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RENSHO-TYPE-TEE-HEA-3XL",
+     "color": "Heather Grey",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-rensho-signed-8x10",
+   "store": "vpw/rensho",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/rensho"
+   ],
+   "title": "Rensho Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by Rensho. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-11-11",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 100,
+   "variants": [
+    {
+     "sku": "VPW-RENSHO-SIGNED-8X10",
+     "stock": 4
+    }
+   ]
+  },
+  {
+   "id": "vpw-jimmy-ag-photo-tee",
+   "store": "vpw/jimmy-ag",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/jimmy-ag"
+   ],
+   "title": "Jimmy AG Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Jimmy AG photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-06",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-JIMMY-AG-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-jimmy-ag-type-tee",
+   "store": "vpw/jimmy-ag",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/jimmy-ag"
+   ],
+   "title": "Jimmy AG “VPW” Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Big, bold Jimmy AG lettering front and back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    },
+    {
+     "name": "Heather Grey",
+     "hex": "#9a9ca1"
+    }
+   ],
+   "sample": true,
+   "created": "2026-09-24",
+   "design": {
+    "style": "type"
+   },
+   "variants": [
+    {
+     "sku": "VPW-JIMMY-AG-TYPE-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-TYPE-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-TYPE-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-TYPE-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-TYPE-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-TYPE-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-TYPE-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-TYPE-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-TYPE-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-TYPE-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-TYPE-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-TYPE-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-TYPE-TEE-HEA-S",
+     "color": "Heather Grey",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-TYPE-TEE-HEA-M",
+     "color": "Heather Grey",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-TYPE-TEE-HEA-L",
+     "color": "Heather Grey",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-TYPE-TEE-HEA-XL",
+     "color": "Heather Grey",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-TYPE-TEE-HEA-2XL",
+     "color": "Heather Grey",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-JIMMY-AG-TYPE-TEE-HEA-3XL",
+     "color": "Heather Grey",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-jimmy-ag-hoodie",
+   "store": "vpw/jimmy-ag",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/jimmy-ag"
+   ],
+   "title": "Jimmy AG Hoodie",
+   "type": "hoodie",
+   "price": 58,
+   "baseCost": 21,
+   "fulfilment": "stock",
+   "description": "Heavyweight black hoodie with Jimmy AG printed on the chest.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-07-18",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-JIMMY-AG-HOODIE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 32
+    },
+    {
+     "sku": "VPW-JIMMY-AG-HOODIE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 9
+    },
+    {
+     "sku": "VPW-JIMMY-AG-HOODIE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 2
+    },
+    {
+     "sku": "VPW-JIMMY-AG-HOODIE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 31
+    },
+    {
+     "sku": "VPW-JIMMY-AG-HOODIE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 7
+    },
+    {
+     "sku": "VPW-JIMMY-AG-HOODIE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "vpw-jimmy-ag-signed-8x10",
+   "store": "vpw/jimmy-ag",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/jimmy-ag"
+   ],
+   "title": "Jimmy AG Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by Jimmy AG. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-11-03",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 50,
+   "variants": [
+    {
+     "sku": "VPW-JIMMY-AG-SIGNED-8X10",
+     "stock": 32
+    }
+   ]
+  },
+  {
+   "id": "vpw-ronnie-el-rapido-photo-tee",
+   "store": "vpw/ronnie-el-rapido",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/ronnie-el-rapido"
+   ],
+   "title": "Ronnie El Rapido Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Ronnie El Rapido photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-09",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-ronnie-el-rapido-hoodie",
+   "store": "vpw/ronnie-el-rapido",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/ronnie-el-rapido"
+   ],
+   "title": "Ronnie El Rapido Hoodie",
+   "type": "hoodie",
+   "price": 58,
+   "baseCost": 21,
+   "fulfilment": "stock",
+   "description": "Heavyweight black hoodie with Ronnie El Rapido printed on the chest.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-10-10",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-HOODIE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 33
+    },
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-HOODIE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-HOODIE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 32
+    },
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-HOODIE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 2
+    },
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-HOODIE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 40
+    },
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-HOODIE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": 34
+    }
+   ]
+  },
+  {
+   "id": "vpw-ronnie-el-rapido-signed-8x10",
+   "store": "vpw/ronnie-el-rapido",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/ronnie-el-rapido"
+   ],
+   "title": "Ronnie El Rapido Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by Ronnie El Rapido. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-07-25",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 100,
+   "variants": [
+    {
+     "sku": "VPW-RONNIE-EL-RAPIDO-SIGNED-8X10",
+     "stock": 33
+    }
+   ]
+  },
+  {
+   "id": "vpw-zakhar-photo-tee",
+   "store": "vpw/zakhar",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/zakhar"
+   ],
+   "title": "Zakhar Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Zakhar photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-08",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-ZAKHAR-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-zakhar-type-tee",
+   "store": "vpw/zakhar",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/zakhar"
+   ],
+   "title": "Zakhar “Thunder God” Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Big, bold Zakhar lettering front and back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    },
+    {
+     "name": "Heather Grey",
+     "hex": "#9a9ca1"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-25",
+   "design": {
+    "style": "type"
+   },
+   "variants": [
+    {
+     "sku": "VPW-ZAKHAR-TYPE-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-TYPE-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-TYPE-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-TYPE-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-TYPE-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-TYPE-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-TYPE-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-TYPE-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-TYPE-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-TYPE-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-TYPE-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-TYPE-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-TYPE-TEE-HEA-S",
+     "color": "Heather Grey",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-TYPE-TEE-HEA-M",
+     "color": "Heather Grey",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-TYPE-TEE-HEA-L",
+     "color": "Heather Grey",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-TYPE-TEE-HEA-XL",
+     "color": "Heather Grey",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-TYPE-TEE-HEA-2XL",
+     "color": "Heather Grey",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ZAKHAR-TYPE-TEE-HEA-3XL",
+     "color": "Heather Grey",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-zakhar-hoodie",
+   "store": "vpw/zakhar",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/zakhar"
+   ],
+   "title": "Zakhar Hoodie",
+   "type": "hoodie",
+   "price": 58,
+   "baseCost": 21,
+   "fulfilment": "stock",
+   "description": "Heavyweight black hoodie with Zakhar printed on the chest.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-05",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-ZAKHAR-HOODIE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 1
+    },
+    {
+     "sku": "VPW-ZAKHAR-HOODIE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 36
+    },
+    {
+     "sku": "VPW-ZAKHAR-HOODIE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 23
+    },
+    {
+     "sku": "VPW-ZAKHAR-HOODIE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 11
+    },
+    {
+     "sku": "VPW-ZAKHAR-HOODIE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 0
+    },
+    {
+     "sku": "VPW-ZAKHAR-HOODIE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": 0
+    }
+   ]
+  },
+  {
+   "id": "vpw-zakhar-signed-8x10",
+   "store": "vpw/zakhar",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/zakhar"
+   ],
+   "title": "Zakhar Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by Zakhar. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-10-26",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 25,
+   "variants": [
+    {
+     "sku": "VPW-ZAKHAR-SIGNED-8X10",
+     "stock": 33
+    }
+   ]
+  },
+  {
+   "id": "vpw-meteor-kid-photo-tee",
+   "store": "vpw/meteor-kid",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/meteor-kid"
+   ],
+   "title": "Meteor Kid Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Meteor Kid photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-08-29",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-METEOR-KID-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-meteor-kid-type-tee",
+   "store": "vpw/meteor-kid",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/meteor-kid"
+   ],
+   "title": "Meteor Kid “VPW” Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Big, bold Meteor Kid lettering front and back.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    },
+    {
+     "name": "Heather Grey",
+     "hex": "#9a9ca1"
+    }
+   ],
+   "sample": true,
+   "created": "2026-11-05",
+   "design": {
+    "style": "type"
+   },
+   "variants": [
+    {
+     "sku": "VPW-METEOR-KID-TYPE-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-TYPE-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-TYPE-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-TYPE-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-TYPE-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-TYPE-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-TYPE-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-TYPE-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-TYPE-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-TYPE-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-TYPE-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-TYPE-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-TYPE-TEE-HEA-S",
+     "color": "Heather Grey",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-TYPE-TEE-HEA-M",
+     "color": "Heather Grey",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-TYPE-TEE-HEA-L",
+     "color": "Heather Grey",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-TYPE-TEE-HEA-XL",
+     "color": "Heather Grey",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-TYPE-TEE-HEA-2XL",
+     "color": "Heather Grey",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-METEOR-KID-TYPE-TEE-HEA-3XL",
+     "color": "Heather Grey",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-meteor-kid-signed-8x10",
+   "store": "vpw/meteor-kid",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/meteor-kid"
+   ],
+   "title": "Meteor Kid Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by Meteor Kid. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-11-03",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 25,
+   "variants": [
+    {
+     "sku": "VPW-METEOR-KID-SIGNED-8X10",
+     "stock": 19
+    }
+   ]
+  },
+  {
+   "id": "vpw-miles-karu-photo-tee",
+   "store": "vpw/miles-karu",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/miles-karu"
+   ],
+   "title": "Miles Karu Photo Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "Full-colour Miles Karu photo print with name and tagline. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-07-19",
+   "design": {
+    "style": "photo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-MILES-KARU-PHOTO-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-MILES-KARU-PHOTO-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-MILES-KARU-PHOTO-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-MILES-KARU-PHOTO-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-MILES-KARU-PHOTO-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-MILES-KARU-PHOTO-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-MILES-KARU-PHOTO-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-MILES-KARU-PHOTO-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-MILES-KARU-PHOTO-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-MILES-KARU-PHOTO-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-MILES-KARU-PHOTO-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-MILES-KARU-PHOTO-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-miles-karu-signed-8x10",
+   "store": "vpw/miles-karu",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/miles-karu"
+   ],
+   "title": "Miles Karu Signed 8x10",
+   "type": "photo",
+   "price": 18,
+   "baseCost": 3,
+   "fulfilment": "stock",
+   "description": "8x10 photo print, hand-signed by Miles Karu. Limited run.",
+   "colors": [],
+   "sample": true,
+   "created": "2026-09-06",
+   "design": {
+    "style": "signed"
+   },
+   "limited": 100,
+   "variants": [
+    {
+     "sku": "VPW-MILES-KARU-SIGNED-8X10",
+     "stock": 28
+    }
+   ]
+  },
+  {
+   "id": "vpw-vtx-team-tee",
+   "store": "vpw/vtx",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/damien-wolfe",
+    "vpw/phong-tran"
+   ],
+   "title": "VTX Team Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "All of VTX on one shirt. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-11-05",
+   "design": {
+    "style": "team"
+   },
+   "variants": [
+    {
+     "sku": "VPW-VTX-TEAM-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VTX-TEAM-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VTX-TEAM-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VTX-TEAM-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VTX-TEAM-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VTX-TEAM-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VTX-TEAM-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VTX-TEAM-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VTX-TEAM-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VTX-TEAM-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VTX-TEAM-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VTX-TEAM-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-the-classic-night-team-tee",
+   "store": "vpw/the-classic-night",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/bobby",
+    "vpw/billy"
+   ],
+   "title": "The Classic Night Team Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "All of The Classic Night on one shirt. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-11-05",
+   "design": {
+    "style": "team"
+   },
+   "variants": [
+    {
+     "sku": "VPW-THE-CLASSIC-NIGHT-TEAM-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-CLASSIC-NIGHT-TEAM-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-CLASSIC-NIGHT-TEAM-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-CLASSIC-NIGHT-TEAM-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-CLASSIC-NIGHT-TEAM-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-CLASSIC-NIGHT-TEAM-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-CLASSIC-NIGHT-TEAM-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-CLASSIC-NIGHT-TEAM-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-CLASSIC-NIGHT-TEAM-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-CLASSIC-NIGHT-TEAM-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-CLASSIC-NIGHT-TEAM-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-THE-CLASSIC-NIGHT-TEAM-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-vortex-rebellion-team-tee",
+   "store": "vpw/vortex-rebellion",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/d-austin",
+    "vpw/kira",
+    "vpw/xiumin-long"
+   ],
+   "title": "Vortex Rebellion Team Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "All of Vortex Rebellion on one shirt. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-11-05",
+   "design": {
+    "style": "team"
+   },
+   "variants": [
+    {
+     "sku": "VPW-VORTEX-REBELLION-TEAM-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VORTEX-REBELLION-TEAM-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VORTEX-REBELLION-TEAM-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VORTEX-REBELLION-TEAM-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VORTEX-REBELLION-TEAM-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VORTEX-REBELLION-TEAM-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VORTEX-REBELLION-TEAM-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VORTEX-REBELLION-TEAM-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VORTEX-REBELLION-TEAM-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VORTEX-REBELLION-TEAM-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VORTEX-REBELLION-TEAM-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VORTEX-REBELLION-TEAM-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-venomshank-team-tee",
+   "store": "vpw/venomshank",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/dokuga",
+    "vpw/rensho"
+   ],
+   "title": "Venomshank Team Tee",
+   "type": "tee",
+   "price": 28,
+   "baseCost": 9.5,
+   "fulfilment": "made-to-order",
+   "description": "All of Venomshank on one shirt. Printed when you order.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    },
+    {
+     "name": "White",
+     "hex": "#f1f0ec"
+    }
+   ],
+   "sample": true,
+   "created": "2026-11-05",
+   "design": {
+    "style": "team"
+   },
+   "variants": [
+    {
+     "sku": "VPW-VENOMSHANK-TEAM-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VENOMSHANK-TEAM-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VENOMSHANK-TEAM-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VENOMSHANK-TEAM-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VENOMSHANK-TEAM-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VENOMSHANK-TEAM-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VENOMSHANK-TEAM-TEE-WHI-S",
+     "color": "White",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VENOMSHANK-TEAM-TEE-WHI-M",
+     "color": "White",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VENOMSHANK-TEAM-TEE-WHI-L",
+     "color": "White",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VENOMSHANK-TEAM-TEE-WHI-XL",
+     "color": "White",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VENOMSHANK-TEAM-TEE-WHI-2XL",
+     "color": "White",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-VENOMSHANK-TEAM-TEE-WHI-3XL",
+     "color": "White",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-roster-tee",
+   "store": "vpw",
+   "promotion": "vpw",
+   "talent": [
+    "vpw/da-butcherman",
+    "vpw/ares",
+    "vpw/phuong-nam",
+    "vpw/rocky-huynh",
+    "vpw/the-british-horror",
+    "vpw/the-x-pat",
+    "vpw/sid-nguyen",
+    "vpw/an-d",
+    "vpw/damien-wolfe",
+    "vpw/phong-tran",
+    "vpw/bobby",
+    "vpw/billy"
+   ],
+   "title": "VPW Roster Tee",
+   "type": "tee",
+   "price": 32,
+   "baseCost": 9.5,
+   "fulfilment": "preorder",
+   "description": "The whole VPW roster on the back, logo on the front. Pre-order: ships by the date shown.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-11-13",
+   "design": {
+    "style": "roster"
+   },
+   "shipsBy": "2026-12-17",
+   "variants": [
+    {
+     "sku": "VPW-ROSTER-TEE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROSTER-TEE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROSTER-TEE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROSTER-TEE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROSTER-TEE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": null
+    },
+    {
+     "sku": "VPW-ROSTER-TEE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": null
+    }
+   ]
+  },
+  {
+   "id": "vpw-logo-hoodie",
+   "store": "vpw",
+   "promotion": "vpw",
+   "talent": [],
+   "title": "VPW Logo Hoodie",
+   "type": "hoodie",
+   "price": 58,
+   "baseCost": 21,
+   "fulfilment": "stock",
+   "description": "Heavyweight hoodie with the VPW logo on the chest.",
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "sample": true,
+   "created": "2026-11-14",
+   "design": {
+    "style": "logo"
+   },
+   "variants": [
+    {
+     "sku": "VPW-LOGO-HOODIE-BLA-S",
+     "color": "Black",
+     "size": "S",
+     "stock": 31
+    },
+    {
+     "sku": "VPW-LOGO-HOODIE-BLA-M",
+     "color": "Black",
+     "size": "M",
+     "stock": 0
+    },
+    {
+     "sku": "VPW-LOGO-HOODIE-BLA-L",
+     "color": "Black",
+     "size": "L",
+     "stock": 15
+    },
+    {
+     "sku": "VPW-LOGO-HOODIE-BLA-XL",
+     "color": "Black",
+     "size": "XL",
+     "stock": 21
+    },
+    {
+     "sku": "VPW-LOGO-HOODIE-BLA-2XL",
+     "color": "Black",
+     "size": "2XL",
+     "stock": 7
+    },
+    {
+     "sku": "VPW-LOGO-HOODIE-BLA-3XL",
+     "color": "Black",
+     "size": "3XL",
+     "stock": 0
+    }
+   ]
+  }
+ ]
+}
