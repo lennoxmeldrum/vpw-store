@@ -1,0 +1,483 @@
+{
+ "promotion": {
+  "id": "vpw",
+  "name": "Vietnam Pro Wrestling",
+  "short": "VPW",
+  "country": "Vietnam",
+  "countryCode": "VN",
+  "city": "Ho Chi Minh City",
+  "website": "https://www.vietnamprowrestling.com",
+  "logo": "assets/img/promotions/vpw/logo.webp",
+  "texture": "assets/img/promotions/vpw/texture.webp",
+  "hero": "assets/img/promotions/vpw/event.webp",
+  "tagline": "Vietnam's home of professional wrestling, live in Ho Chi Minh City.",
+  "theme": {
+   "primary": "#c9392b",
+   "accent": "#f7cd46",
+   "accentDeep": "#b1872f",
+   "onPrimary": "#ffffff",
+   "italic": true
+  },
+  "socials": {
+   "facebook": "https://www.facebook.com/VietnamProWrestling",
+   "instagram": "https://www.instagram.com/vietnam_prowrestling",
+   "tiktok": "https://www.tiktok.com/@vietnamprowrestling",
+   "x": "https://x.com/VietnamProWres"
+  },
+  "championships": [
+   {
+    "name": "VPW Vietnam Championship",
+    "holders": [
+     "da-butcherman"
+    ]
+   },
+   {
+    "name": "VPW Tag-Team Championship",
+    "holders": [
+     "rocky-huynh",
+     "the-british-horror"
+    ]
+   }
+  ],
+  "source": "Roster, logo and merch photos from vietnamprowrestling.com (Nov 2026)"
+ },
+ "talent": [
+  {
+   "id": "da-butcherman",
+   "name": "Da Butcherman",
+   "nickname": null,
+   "title": "VPW Vietnam Champion",
+   "team": null,
+   "photo": "assets/img/talent/vpw/da-butcherman.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/danial.eiriasu",
+    "instagram": "https://www.instagram.com/da_butcherman/"
+   }
+  },
+  {
+   "id": "ares",
+   "name": "Ares",
+   "nickname": "The Unstoppable Force",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/ares.webp",
+   "socials": {
+    "facebook": "https://m.facebook.com/people/The-Unstoppable-Force-Ares/61554872771473/",
+    "instagram": "https://www.instagram.com/ares.prowrestler?igsh=ZXNsa3VzZ2hmeDVv&amp;utm_source=qr",
+    "tiktok": "https://www.tiktok.com/@ares_vpw?_t=8odcLQAqFeS&amp;_r=1",
+    "youtube": "https://youtube.com/@aresvpw?si=n-ipmNxluFRaf79H"
+   }
+  },
+  {
+   "id": "phuong-nam",
+   "name": "Phuong Nam",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/phuong-nam.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/PhuongNamComedian",
+    "instagram": "https://www.instagram.com/_alvissnam_/",
+    "tiktok": "https://www.tiktok.com/@phuongnamcomedian",
+    "youtube": "https://www.youtube.com/@SaigonT%E1%BA%BFu"
+   }
+  },
+  {
+   "id": "rocky-huynh",
+   "name": "Rocky Huynh",
+   "nickname": "The Founder",
+   "title": "VPW Tag-Team Champion",
+   "team": null,
+   "photo": "assets/img/talent/vpw/rocky-huynh.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/AwesomeTaurus",
+    "instagram": "https://www.instagram.com/awesome.taurus",
+    "youtube": "https://youtube.com/@rockyhuynhvlogs"
+   }
+  },
+  {
+   "id": "the-british-horror",
+   "name": "The British Horror",
+   "nickname": null,
+   "title": "VPW Tag-Team Champion",
+   "team": null,
+   "photo": "assets/img/talent/vpw/the-british-horror.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/nate.newman01",
+    "instagram": "https://www.instagram.com/british_horror/"
+   }
+  },
+  {
+   "id": "the-x-pat",
+   "name": "The X-Pat",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/the-x-pat.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/carey.wass",
+    "instagram": "https://www.instagram.com/tomcruisader/"
+   }
+  },
+  {
+   "id": "sid-nguyen",
+   "name": "Sid Nguyen",
+   "nickname": "The Prince of Wrestling",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/sid-nguyen.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/SidNguyen.Prince",
+    "instagram": "https://www.instagram.com/sidnguyen.theprowrestler"
+   }
+  },
+  {
+   "id": "an-d",
+   "name": "An D",
+   "nickname": "The National Treasure",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/an-d.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/Andy.Do.0596/",
+    "instagram": "https://www.instagram.com/the.nationaltreasure/"
+   }
+  },
+  {
+   "id": "damien-wolfe",
+   "name": "Damien Wolfe",
+   "nickname": null,
+   "title": null,
+   "team": "vtx",
+   "photo": "assets/img/talent/vpw/damien-wolfe.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/VungtauXperienceVPW",
+    "instagram": "https://www.instagram.com/psycho_wolfe/"
+   }
+  },
+  {
+   "id": "phong-tran",
+   "name": "Phong Tran",
+   "nickname": null,
+   "title": null,
+   "team": "vtx",
+   "photo": "assets/img/talent/vpw/phong-tran.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/VungtauXperienceVPW",
+    "instagram": "https://www.instagram.com/phongtran.prowrestler/"
+   }
+  },
+  {
+   "id": "bobby",
+   "name": "Bobby",
+   "nickname": null,
+   "title": null,
+   "team": "the-classic-night",
+   "photo": "assets/img/talent/vpw/bobby.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/tran.john.9237",
+    "instagram": "https://www.instagram.com/bobby_vpw"
+   }
+  },
+  {
+   "id": "billy",
+   "name": "Billy",
+   "nickname": null,
+   "title": null,
+   "team": "the-classic-night",
+   "photo": "assets/img/talent/vpw/billy.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/thereal.ltnd/",
+    "instagram": "https://www.instagram.com/billy_vpw/",
+    "tiktok": "https://www.tiktok.com/@caubemapditnhungcute?_t=8ohPBmEhiEh&amp;_r=1"
+   }
+  },
+  {
+   "id": "d-austin",
+   "name": "D. Austin",
+   "nickname": null,
+   "title": null,
+   "team": "vortex-rebellion",
+   "photo": "assets/img/talent/vpw/d-austin.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/long.kieu.77377/",
+    "instagram": "https://www.instagram.com/d_austin.vpw/",
+    "youtube": "https://www.youtube.com/@NhiDuongGia91"
+   }
+  },
+  {
+   "id": "kira",
+   "name": "Kira",
+   "nickname": null,
+   "title": null,
+   "team": "vortex-rebellion",
+   "photo": "assets/img/talent/vpw/kira.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/loc.tran.429242",
+    "instagram": "https://www.instagram.com/loc_tran98_kira.vpw/"
+   }
+  },
+  {
+   "id": "xiumin-long",
+   "name": "Xiumin Long",
+   "nickname": null,
+   "title": null,
+   "team": "vortex-rebellion",
+   "photo": "assets/img/talent/vpw/xiumin-long.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/long.xiumin.5",
+    "instagram": "https://www.instagram.com/longxiumin"
+   }
+  },
+  {
+   "id": "hy-draco",
+   "name": "Hy Draco",
+   "nickname": "Saigon Mamba",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/hy-draco.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/giahuyVPW?mibextid=ZbWKwL",
+    "instagram": "https://www.instagram.com/draco.pleg?igsh=Y2t4aTl5NGZzNDZq"
+   }
+  },
+  {
+   "id": "kpy",
+   "name": "KPY",
+   "nickname": "Heatspitta",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/kpy.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/Wydma03/",
+    "instagram": "https://www.instagram.com/kpy_wydma/",
+    "tiktok": "https://www.tiktok.com/@kpy_wydma"
+   }
+  },
+  {
+   "id": "khoa-truong",
+   "name": "Khoa Truong",
+   "nickname": "The Undead Spirit",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/khoa-truong.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/khoatruongvpw/",
+    "instagram": "https://www.instagram.com/khoa_vpw_prowrestler/",
+    "tiktok": "https://www.tiktok.com/@wrestlingkhoa"
+   }
+  },
+  {
+   "id": "henry",
+   "name": "Henry",
+   "nickname": "Slugshot",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/henry.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/hai.duyet.3/",
+    "instagram": "https://www.instagram.com/henry.vpw97/",
+    "tiktok": "https://www.tiktok.com/@henry97henry"
+   }
+  },
+  {
+   "id": "dokuga",
+   "name": "Dokuga",
+   "nickname": null,
+   "title": null,
+   "team": "venomshank",
+   "photo": "assets/img/talent/vpw/dokuga.webp",
+   "socials": {}
+  },
+  {
+   "id": "rensho",
+   "name": "Rensho",
+   "nickname": null,
+   "title": null,
+   "team": "venomshank",
+   "photo": "assets/img/talent/vpw/rensho.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/Venomshank",
+    "instagram": "https://www.instagram.com/venom.shank/"
+   }
+  },
+  {
+   "id": "jimmy-ag",
+   "name": "Jimmy AG",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/jimmy-ag.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/nguyentherykioh",
+    "instagram": "https://www.instagram.com/jimmyangiang/"
+   }
+  },
+  {
+   "id": "ronnie-el-rapido",
+   "name": "Ronnie El Rapido",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/ronnie-el-rapido.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/phong.rousey",
+    "instagram": "https://www.instagram.com/ronnie_el_rapido_vpw",
+    "tiktok": "https://www.tiktok.com/@_ronnie_el_rapido_vpw"
+   }
+  },
+  {
+   "id": "zakhar",
+   "name": "Zakhar",
+   "nickname": "Thunder God",
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/zakhar.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/profile.php?id=100017090981788",
+    "instagram": "https://www.instagram.com/zakhar_nhatrang",
+    "tiktok": "https://www.tiktok.com/@zakhar_fit96"
+   }
+  },
+  {
+   "id": "meteor-kid",
+   "name": "Meteor Kid",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/meteor-kid.webp",
+   "socials": {
+    "facebook": "https://www.facebook.com/dinh.pham.924665",
+    "instagram": "https://www.instagram.com/meteorkid_dinhpham1305",
+    "tiktok": "https://www.tiktok.com/@quc.dinh.phm"
+   }
+  },
+  {
+   "id": "miles-karu",
+   "name": "Miles Karu",
+   "nickname": null,
+   "title": null,
+   "team": null,
+   "photo": "assets/img/talent/vpw/miles-karu.webp",
+   "socials": {
+    "instagram": "https://www.instagram.com/vietnam_prowrestling",
+    "tiktok": "https://www.tiktok.com/@vietnamprowrestling",
+    "facebook": "https://www.facebook.com/VietnamProWrestling",
+    "x": "https://x.com/VietnamProWres"
+   }
+  }
+ ],
+ "teams": [
+  {
+   "id": "vtx",
+   "name": "VTX",
+   "members": [
+    "damien-wolfe",
+    "phong-tran"
+   ]
+  },
+  {
+   "id": "the-classic-night",
+   "name": "The Classic Night",
+   "members": [
+    "bobby",
+    "billy"
+   ]
+  },
+  {
+   "id": "vortex-rebellion",
+   "name": "Vortex Rebellion",
+   "members": [
+    "d-austin",
+    "kira",
+    "xiumin-long"
+   ]
+  },
+  {
+   "id": "venomshank",
+   "name": "Venomshank",
+   "members": [
+    "dokuga",
+    "rensho"
+   ]
+  }
+ ],
+ "products": [
+  {
+   "id": "vpw-logo-tee",
+   "store": "vpw",
+   "title": "VPW Logo Tee",
+   "type": "tee",
+   "price": 28,
+   "fulfilment": "stock",
+   "images": [
+    "assets/img/products/vpw/logo-tee-front.webp",
+    "assets/img/products/vpw/logo-tee-back.webp"
+   ],
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "description": "The classic. Red VPW mark with the full name underneath, on a black cotton tee.",
+   "real": true
+  },
+  {
+   "id": "vpw-tank",
+   "store": "vpw",
+   "title": "VPW Training Tank",
+   "type": "tank",
+   "price": 24,
+   "fulfilment": "stock",
+   "images": [
+    "assets/img/products/vpw/tank.webp"
+   ],
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "description": "Black tank with a small VPW chest mark and VIETNAM PRO WRESTLING down the back.",
+   "real": true
+  },
+  {
+   "id": "vpw-trucker-cap",
+   "store": "vpw",
+   "title": "VPW Trucker Cap",
+   "type": "cap",
+   "price": 26,
+   "fulfilment": "stock",
+   "images": [
+    "assets/img/products/vpw/cap.webp"
+   ],
+   "colors": [
+    {
+     "name": "Black",
+     "hex": "#141414"
+    }
+   ],
+   "description": "Black mesh-back trucker with an embroidered VPW front panel.",
+   "real": true
+  },
+  {
+   "id": "vpw-keychains",
+   "store": "vpw",
+   "title": "VPW Keychains",
+   "type": "keychain",
+   "price": 9,
+   "fulfilment": "stock",
+   "images": [
+    "assets/img/products/vpw/keychains.webp"
+   ],
+   "options": [
+    "Witness the Rise",
+    "VPW Logo",
+    "Vietnam Championship"
+   ],
+   "description": "Metal keychains: the Witness the Rise slogan, the VPW logo, and a mini VPW Vietnam Championship.",
+   "real": true
+  }
+ ]
+}
